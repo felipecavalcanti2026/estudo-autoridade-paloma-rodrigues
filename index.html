@@ -6,791 +6,1198 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Paloma Rodrigues · Plano de Autoridade</title>
 <meta name="description" content="Plano de 12 meses para Paloma Rodrigues se tornar a referência em equity, expansão e eventos empresariais em João Pessoa e Campina Grande.">
+<meta name="theme-color" content="#0b1630">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700;800&display=swap">
 <style>
-@page { size: 1280px 720px; margin: 0; }
-*{margin:0;padding:0;box-sizing:border-box}
-html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 :root{
-  --deep:#0b1630; --deep-2:#13213f; --deep-3:#1c2c50;
-  --paper:#FFFFFF; --soft:#F6F3EC; --cream:#f4f1ea;
-  --ink:#121a2e; --ink-2:#4a5470; --ink-3:#8790a6;
-  --line:#E4E0D6; --line-2:#EFECE4;
-  --gold:#c8a669; --gold-tx:#8d6c2f; --gold-lit:#e2c792; --gold-soft:#F7F0E2;
-  --blue:#b6c4de; --blue-soft:#EAF0F8; --blue-tx:#2d4778;
-  --red:#a5432e; --red-soft:#F8EAE5;
-  --ok:#2F6B4F; --ok-soft:#E6F2EB;
-  --serif:"EB Garamond",Georgia,"Times New Roman",serif;
-  --sans:"Manrope","Helvetica Neue",Arial,sans-serif;
+  --navy:#0b1630; --navy-2:#111f3d; --navy-3:#1a2a4d;
+  --ivory:#fbfaf6; --cream:#f4f1ea; --sand:#ebe5d8;
+  --ink:#0f1729; --ink-2:#465068; --ink-3:#7c8499;
+  --line:rgba(15,23,41,.10); --line-d:rgba(255,255,255,.10);
+  --gold:#c8a669; --gold-d:#8d6c2f; --gold-l:#e4cc9a;
+  --mist:#aab5cc;
+  --serif:"Cormorant Garamond",Georgia,serif;
+  --sans:"Manrope",system-ui,-apple-system,Segoe UI,sans-serif;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --w:1180px;
 }
-body{font-family:var(--sans);background:#070f22;color:var(--ink);-webkit-font-smoothing:antialiased}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+body{font-feature-settings:"lnum" 1;font-variant-numeric:lining-nums;font-family:var(--sans);background:var(--ivory);color:var(--ink);-webkit-font-smoothing:antialiased;font-size:17px;line-height:1.65;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+::selection{background:var(--gold);color:var(--navy)}
 
-.frame{margin:0 auto 22px;position:relative}
-.slide{width:1280px;height:720px;position:relative;overflow:hidden;background:var(--paper);
-  padding:44px 64px 46px;display:flex;flex-direction:column;page-break-after:always;break-after:page;transform-origin:top left}
-.frame:last-of-type .slide{page-break-after:auto;break-after:auto}
-@media screen{ body{padding:24px 0 8px} .slide{box-shadow:0 14px 44px rgba(0,0,0,.5)} }
-@media print{ body{background:#fff;padding:0} .frame{margin:0;width:auto!important;height:auto!important} .slide{transform:none!important} .topbar{display:none!important} }
-.topbar{max-width:1280px;margin:0 auto 16px;padding:0 12px;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:13px;color:#8f9ab3}
-.topbar b{color:#eef1f7;font-weight:600}
-.topbar .dl{color:var(--deep);background:var(--gold-lit);padding:8px 16px;text-decoration:none;font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 32px}
+section{position:relative}
+.pad{padding:140px 0}
+.dark{background:var(--navy);color:#fff}
+.cream{background:var(--cream)}
 
-h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:0;text-wrap:balance;font-variant-numeric:lining-nums}
-b,strong{font-weight:700}
-.s-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
-.tag{font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-tx);display:flex;align-items:center;gap:10px}
-.tag::before{content:"";width:22px;height:2px;background:var(--gold)}
-.pg{font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--ink-3);font-variant-numeric:tabular-nums}
-h2.t{font-size:40px;line-height:1.08;margin-bottom:10px;max-width:1120px}
-h2.t i{font-style:italic;color:var(--gold-tx)}
-.lede{font-size:17px;line-height:1.5;color:var(--ink-2);max-width:84ch}
-.foot{position:absolute;left:64px;right:64px;bottom:18px;display:flex;justify-content:space-between;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#a3a9b8;border-top:1px solid var(--line);padding-top:9px}
-.slide.dark{background:var(--deep);color:#fff}
-.slide.dark .foot{border-top-color:rgba(255,255,255,.12);color:rgba(255,255,255,.34)}
-.slide.dark .tag{color:var(--gold-lit)}
-.slide.dark .pg{color:rgba(255,255,255,.4)}
-.slide.dark h2.t{color:#fff}
-.slide.dark h2.t i{color:var(--gold-lit)}
-.slide.dark .lede{color:#aeb8cf}
+/* tipografia */
+.eyebrow{display:inline-flex;align-items:center;gap:14px;font-size:11.5px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-d)}
+.eyebrow::before{content:"";width:34px;height:1px;background:currentColor}
+.dark .eyebrow{color:var(--gold)}
+.h-xl{font-family:var(--serif);font-weight:400;font-size:clamp(44px,6.4vw,92px);line-height:.98;letter-spacing:-.015em}
+.h-lg{font-family:var(--serif);font-weight:400;font-size:clamp(36px,4.6vw,64px);line-height:1.04;letter-spacing:-.01em;text-wrap:balance}
+.h-md{font-family:var(--serif);font-weight:500;font-size:clamp(26px,2.4vw,32px);line-height:1.15}
+.h-xl em,.h-lg em,.h-md em{font-style:italic;color:var(--gold-d)}
+.dark .h-xl em,.dark .h-lg em,.dark .h-md em{color:var(--gold-l)}
+.lead{font-size:clamp(17px,1.4vw,19.5px);line-height:1.7;color:var(--ink-2);max-width:62ch}
+.dark .lead{color:var(--mist)}
+.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end;margin-bottom:72px}
+.sec-head .eyebrow{margin-bottom:26px}
+.num-tag{font-family:var(--serif);font-style:italic;font-size:20px;color:var(--gold-d);margin-right:4px}
 
-.card{background:var(--soft);border:1px solid var(--line);padding:16px 20px}
-.ct{font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-tx);font-weight:800;margin-bottom:10px}
-.card h3{font-size:26px;line-height:1.12;margin-bottom:8px}
-.card p,.card li{font-size:15px;line-height:1.5;color:var(--ink-2)}
-.card ul{list-style:none}
-.card li{padding-left:14px;position:relative;margin-bottom:8px}
-.card li::before{content:"";position:absolute;left:0;top:10px;width:6px;height:2px;background:var(--gold)}
-.src{font-size:10.5px;line-height:1.45;color:var(--ink-3)}
-.band{margin-top:auto;background:var(--deep);color:#fff;padding:14px 24px;display:flex;align-items:center;gap:18px}
-.band .k{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-lit);font-weight:800;white-space:nowrap}
-.band p{font-family:var(--serif);font-size:20px;line-height:1.3}
-.band p i{color:var(--gold-lit)}
-.slide.dark .band{background:var(--deep-3)}
-.g2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-.g5{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
-.photo{background-size:cover;background-position:center top}
+/* nav */
+.nav{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:50;width:min(calc(100% - 32px),var(--w));
+  display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px 14px 12px 24px;border-radius:999px;
+  background:rgba(251,250,246,.72);backdrop-filter:saturate(1.4) blur(18px);-webkit-backdrop-filter:saturate(1.4) blur(18px);
+  border:1px solid rgba(15,23,41,.07);box-shadow:0 8px 30px rgba(11,22,48,.06);transition:background .4s var(--ease),border-color .4s,transform .5s var(--ease)}
+.nav.on-dark{background:rgba(11,22,48,.6);border-color:rgba(255,255,255,.08);color:#fff}
+.nav.hide{transform:translate(-50%,-120%)}
+.brand{font-family:var(--serif);font-size:21px;font-weight:500;letter-spacing:.01em;text-decoration:none;white-space:nowrap}
+.brand i{color:var(--gold-d)}
+.nav.on-dark .brand i{color:var(--gold-l)}
+.nav ul{display:flex;list-style:none;gap:4px}
+.nav ul a{display:block;font-size:13px;font-weight:600;text-decoration:none;padding:9px 14px;border-radius:999px;color:inherit;opacity:.72;transition:opacity .25s,background .25s}
+.nav ul a:hover,.nav ul a.act{opacity:1;background:rgba(15,23,41,.06)}
+.nav.on-dark ul a:hover,.nav.on-dark ul a.act{background:rgba(255,255,255,.08)}
+.btn{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:700;letter-spacing:.02em;text-decoration:none;padding:12px 20px;border-radius:999px;
+  background:var(--navy);color:#fff;transition:background .3s var(--ease),transform .3s var(--ease),box-shadow .3s;cursor:pointer;white-space:nowrap}
+.btn:hover{background:var(--navy-3);box-shadow:0 10px 24px rgba(11,22,48,.18)}
+.btn svg{width:15px;height:15px;transition:transform .3s var(--ease)}
+.btn:hover svg{transform:translateY(2px)}
+.nav.on-dark .btn{background:var(--gold);color:var(--navy)}
+.btn.gold{background:var(--gold);color:var(--navy)}
+.btn.gold:hover{background:var(--gold-l)}
+.btn.ghost{background:transparent;border:1px solid currentColor}
+.progress{position:fixed;top:0;left:0;height:2px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--gold-d),var(--gold));z-index:60}
 
-/* capa */
-.cover{padding:0;flex-direction:row}
-.cover .l{flex:1;padding:58px 56px 52px 64px;display:flex;flex-direction:column;justify-content:center;
-  background-image:radial-gradient(ellipse 620px 480px at 0% 110%, rgba(200,166,105,.16), transparent 66%)}
-.cover .r{width:470px;position:relative}
-.cover .r .photo{position:absolute;inset:0;background-position:center 18%}
-.cover .r::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--deep) 0%,rgba(11,22,48,0) 22%)}
-.kicker{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-lit);font-weight:700;margin-bottom:22px}
-.cover h1{font-size:60px;line-height:1.02;color:#fff;margin-bottom:20px}
-.cover h1 i{font-style:italic;color:var(--gold-lit)}
-.cover .sub{font-size:17px;line-height:1.55;color:#aeb8cf;max-width:56ch}
-.cover .rule{width:80px;height:2px;background:var(--gold);margin:28px 0 22px}
-.cover .meta{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5);line-height:1.8}
-.cover .meta b{color:#fff;font-weight:700}
+/* hero */
+.hero{min-height:100svh;display:grid;grid-template-columns:1.08fr .92fr;background:var(--navy);color:#fff;overflow:hidden}
+.hero-l{display:flex;flex-direction:column;justify-content:center;padding:150px 64px 90px max(32px,calc((100vw - var(--w))/2 + 32px))}
+.hero .eyebrow{margin-bottom:34px}
+.hero h1 em{color:var(--gold-l)}
+.hero .lead{margin-top:30px;max-width:50ch}
+.hero-meta{display:flex;gap:40px;margin-top:56px;padding-top:28px;border-top:1px solid var(--line-d)}
+.hero-meta>div{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.45);line-height:1.8}
+.hero-meta b{display:block;color:#fff;font-weight:600;letter-spacing:.04em;text-transform:none;font-size:15px}
+.hero-r{position:relative;overflow:hidden}
+.hero-r .ph{position:absolute;inset:-6% 0;background:url(img/paloma-900.jpg) center 18%/cover;will-change:transform}
+.hero-r::before{content:"";position:absolute;inset:0;z-index:2;background:linear-gradient(90deg,var(--navy) 0%,rgba(11,22,48,0) 30%),linear-gradient(0deg,rgba(11,22,48,.5) 0%,rgba(11,22,48,0) 30%)}
+.scroll-cue{position:absolute;left:max(32px,calc((100vw - var(--w))/2 + 32px));bottom:34px;display:flex;align-items:center;gap:14px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.5);z-index:3}
+.scroll-cue span{width:1px;height:46px;background:rgba(255,255,255,.2);position:relative;overflow:hidden}
+.scroll-cue span::after{content:"";position:absolute;left:0;top:-50%;width:1px;height:50%;background:var(--gold);animation:cue 2.2s var(--ease) infinite}
+@keyframes cue{to{top:110%}}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(34px);filter:blur(6px);transition:opacity 1.1s var(--ease),transform 1.1s var(--ease),filter 1.1s var(--ease)}
+.rv.in{opacity:1;transform:none;filter:none}
+.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}.rv.d4{transition-delay:.32s}.rv.d5{transition-delay:.4s}
+.split .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
+.split .w>span{display:inline-block;transform:translateY(105%);transition:transform 1.2s var(--ease)}
+.split.in .w>span{transform:none}
+.img-rv{clip-path:inset(12% 0 12% 0 round 4px);transition:clip-path 1.5s var(--ease)}
+.img-rv.in{clip-path:inset(0 0 0 0 round 4px)}
+.img-rv img,.img-rv .bg{transform:scale(1.12);transition:transform 1.8s var(--ease)}
+.img-rv.in img,.img-rv.in .bg{transform:scale(1)}
 
 /* números */
-.nums{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.num{padding:12px 18px;border-right:1px solid var(--line)}
-.num:last-child{border-right:0}
-.num .v{font-family:var(--serif);font-size:42px;line-height:1;color:var(--ink);margin-bottom:6px;font-variant-numeric:lining-nums}
-.num .v small{font-size:22px}
-.num .l{font-size:12.5px;line-height:1.4;color:var(--ink-2)}
-.slide.dark .nums{border-color:rgba(255,255,255,.12)}
-.slide.dark .num{border-color:rgba(255,255,255,.12)}
-.slide.dark .num .v{color:var(--gold-lit)}
-.slide.dark .num .l{color:#aeb8cf}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stat{padding:40px 28px 36px;border-right:1px solid var(--line)}
+.stat:last-child{border-right:0}
+.stat .v{font-family:var(--serif);font-size:clamp(48px,5vw,72px);line-height:1;font-weight:400;font-variant-numeric:lining-nums tabular-nums;margin-bottom:14px}
+.stat .v small{font-size:.45em;margin-left:4px;color:var(--ink-2)}
+.stat p{font-size:14.5px;line-height:1.5;color:var(--ink-2);max-width:24ch}
 
-/* lista de check */
-.chk{list-style:none}
-.chk li{font-size:15px;line-height:1.45;color:var(--ink-2);padding:8px 0 8px 28px;position:relative;border-bottom:1px solid var(--line-2)}
-.chk li:last-child{border-bottom:0}
-.chk li::before{content:"";position:absolute;left:2px;top:12px;width:12px;height:12px;border:2px solid var(--gold);border-radius:50%}
-.chk li b{color:var(--ink)}
-.chk.x li::before{border-color:var(--red);border-radius:0;transform:rotate(45deg);width:10px;height:10px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:64px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:4px;padding:40px 40px 36px;transition:box-shadow .5s var(--ease),transform .5s var(--ease)}
+.panel:hover{box-shadow:0 24px 60px rgba(11,22,48,.07)}
+.panel h3{font-family:var(--serif);font-weight:500;font-size:28px;margin-bottom:22px}
+.list{list-style:none}
+.list li{position:relative;padding:16px 0 16px 34px;border-top:1px solid var(--line);font-size:15.5px;line-height:1.55;color:var(--ink-2)}
+.list li:first-child{border-top:0;padding-top:4px}
+.list li:first-child::before{top:12px}
+.list li::before{content:"";position:absolute;left:2px;top:24px;width:14px;height:1px;background:var(--gold)}
+.list li b{color:var(--ink);font-weight:700}
+.list.neg li::before{background:#b4553b}
+.dark .list li{border-color:var(--line-d);color:var(--mist)}
+.dark .list li b{color:#fff}
 
-/* fases */
-.ph-top{display:flex;gap:22px;align-items:stretch;margin-bottom:14px}
-.ph-badge{background:var(--deep);color:#fff;padding:16px 22px;min-width:210px;display:flex;flex-direction:column;justify-content:center}
-.ph-badge .m{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-lit);font-weight:800;margin-bottom:6px}
-.ph-badge .n{font-family:var(--serif);font-size:34px;line-height:1}
-.ph-badge .d{font-size:12px;color:#aeb8cf;margin-top:6px}
-.ph-goal{flex:1;border-left:3px solid var(--gold);padding:6px 0 6px 20px;display:flex;flex-direction:column;justify-content:center}
-.ph-goal .k{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-tx);font-weight:800;margin-bottom:4px}
-.ph-goal p{font-family:var(--serif);font-size:25px;line-height:1.25}
-.ph-cols{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:14px;flex:1;min-height:0}
-.metas{display:flex;gap:10px;margin-top:12px}
-.meta-i{flex:1;background:var(--gold-soft);border:1px solid #eadcbd;padding:10px 14px}
-.meta-i .v{font-family:var(--serif);font-size:26px;line-height:1;color:var(--ink)}
-.meta-i .l{font-size:11.5px;color:var(--ink-2);margin-top:3px;line-height:1.35}
+/* citação */
+.quote-sec{padding:180px 0;text-align:center;overflow:hidden}
+.quote-sec .h-lg{max-width:18ch;margin:0 auto}
+.quote-sec .lead{margin:40px auto 0;text-align:center}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:2px;max-width:900px;margin:80px auto 0;text-align:left}
+.vs>div{padding:34px 36px;background:var(--navy-2)}
+.vs>div:last-child{background:linear-gradient(135deg,rgba(200,166,105,.18),rgba(200,166,105,.06));box-shadow:inset 0 0 0 1px rgba(200,166,105,.35)}
+.vs .k{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;margin-bottom:12px;color:#e79b86}
+.vs>div:last-child .k{color:var(--gold-l)}
+.vs p{font-size:16px;line-height:1.6;color:var(--mist)}
+.vs>div:last-child p{color:#fff}
 
-/* timeline */
-.tl{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative;margin-top:6px}
-.tl-i{padding:0 18px 0 0;position:relative}
-.tl-i .bar{height:6px;background:var(--gold);margin-bottom:16px;position:relative}
-.tl-i:nth-child(1) .bar{opacity:.45}.tl-i:nth-child(2) .bar{opacity:.65}.tl-i:nth-child(3) .bar{opacity:.85}
-.tl-i .bar::after{content:"";position:absolute;right:-1px;top:-5px;width:16px;height:16px;border-radius:50%;background:var(--deep);border:3px solid var(--gold)}
-.tl-i .m{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-lit);font-weight:800}
-.tl-i h3{font-size:30px;color:#fff;margin:4px 0 8px;line-height:1.05}
-.tl-i p{font-size:15px;line-height:1.5;color:#aeb8cf}
-.tl-i .ev{margin-top:14px;font-size:13px;color:#fff;background:rgba(200,166,105,.14);border:1px solid rgba(200,166,105,.35);padding:8px 10px;line-height:1.4}
-.tl-i .ev b{color:var(--gold-lit)}
+/* pilares tese */
+.pillars{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line)}
+.pillar{padding:44px 30px 40px 0;border-right:1px solid var(--line);margin-right:30px}
+.pillar:last-child{border-right:0;margin-right:0}
+.pillar .n{font-family:var(--serif);font-style:italic;font-size:22px;color:var(--gold-d);margin-bottom:28px}
+.pillar h3{font-family:var(--serif);font-weight:500;font-size:28px;line-height:1.1;margin-bottom:14px}
+.pillar p{font-size:15px;line-height:1.6;color:var(--ink-2)}
+.pillar .how{margin-top:24px;padding-top:18px;border-top:1px solid var(--line);font-size:13.5px;color:var(--ink-2)}
+.pillar .how b{display:block;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-d);margin-bottom:6px}
+.statement{margin-top:90px;padding:56px 64px;background:var(--navy);color:#fff;border-radius:4px;display:grid;grid-template-columns:200px 1fr;gap:40px;align-items:center}
+.statement .k{font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.statement p{font-family:var(--serif);font-size:clamp(24px,2.4vw,34px);line-height:1.25}
+.statement p em{color:var(--gold-l)}
 
-/* mockups de post */
-.posts{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;flex:1;min-height:0}
-.post{position:relative;overflow:hidden;background:var(--deep);display:flex;flex-direction:column}
-.post .img{flex:1;background-size:cover;background-position:center 20%;position:relative}
-.post .img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,22,48,0) 35%,rgba(11,22,48,.92) 100%)}
-.post .cap{position:absolute;left:16px;right:16px;bottom:62px;z-index:2;color:#fff;font-family:var(--serif);font-size:22px;line-height:1.12}
-.post .cap i{color:var(--gold-lit)}
-.post .fmt{position:absolute;left:14px;top:14px;z-index:2;font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;background:var(--gold);color:var(--deep);padding:4px 8px}
-.post .why{background:#fff;border:1px solid var(--line);border-top:0;padding:10px 14px;font-size:12px;line-height:1.4;color:var(--ink-2);height:56px}
+/* posicionamento */
+.pos{display:grid;grid-template-columns:1.15fr .85fr;gap:80px;align-items:center}
+.pos .ph{aspect-ratio:4/5;border-radius:4px;overflow:hidden}
+.pos .ph .bg{width:100%;height:100%;background:url(img/ig-palco.jpg) center 30%/cover}
+.brands{margin-top:48px;display:grid;gap:2px}
+.brand-row{display:grid;grid-template-columns:44px 1fr 1.3fr;gap:20px;align-items:baseline;padding:22px 0;border-top:1px solid var(--line)}
+.brand-row:last-child{border-bottom:1px solid var(--line)}
+.brand-row .i{font-family:var(--serif);font-style:italic;color:var(--gold-d);font-size:20px}
+.brand-row h4{font-family:var(--serif);font-weight:500;font-size:24px;line-height:1.15}
+.brand-row p{font-size:14.5px;color:var(--ink-2);line-height:1.55}
+.pitch{margin-top:40px;font-family:var(--serif);font-style:italic;font-size:26px;line-height:1.3;color:var(--ink);padding-left:26px;border-left:2px solid var(--gold)}
+
+/* cidades */
+.cities{display:grid;grid-template-columns:1fr 1fr 1.1fr;gap:20px}
+.city{background:var(--navy);color:#fff;border-radius:4px;padding:44px 40px;position:relative;overflow:hidden}
+.city:nth-child(2){background:var(--navy-3)}
+.city::after{content:"";position:absolute;right:-80px;top:-80px;width:240px;height:240px;border-radius:50%;border:1px solid rgba(200,166,105,.22)}
+.city .k{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.city .v{font-family:var(--serif);font-size:68px;line-height:1;margin:22px 0 6px}
+.city .s{font-size:12.5px;color:rgba(255,255,255,.45);margin-bottom:26px}
+.city p{font-size:15px;line-height:1.6;color:var(--mist)}
+.city p b{color:#fff}
+.city .entry{margin-top:26px;padding-top:20px;border-top:1px solid var(--line-d);font-size:13.5px;color:var(--mist);line-height:1.55}
+.city .entry b{display:block;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.persona{background:#fff;border:1px solid var(--line);border-radius:4px;padding:40px}
+.persona h3{font-family:var(--serif);font-weight:500;font-size:28px;margin-bottom:12px}
+
+/* motores */
+.engines{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:e}
+.engine{background:#fff;border:1px solid var(--line);border-radius:4px;padding:38px 30px 32px;display:flex;flex-direction:column;transition:transform .6s var(--ease),box-shadow .6s var(--ease)}
+.engine:hover{transform:translateY(-6px);box-shadow:0 30px 60px rgba(11,22,48,.08)}
+.engine .ic{width:48px;height:48px;border-radius:50%;border:1px solid var(--gold);display:grid;place-items:center;color:var(--gold-d);margin-bottom:28px}
+.engine .ic svg{width:20px;height:20px}
+.engine .k{font-size:10.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin-bottom:8px}
+.engine h3{font-family:var(--serif);font-weight:500;font-size:30px;margin-bottom:12px}
+.engine p{font-size:15px;line-height:1.6;color:var(--ink-2)}
+.engine .gen{margin-top:auto;padding-top:22px;font-size:14px;color:var(--ink)}
+.engine .gen b{color:var(--gold-d)}
+.engine.hl{background:var(--navy);border-color:var(--navy);color:#fff}
+.engine.hl .ic{color:var(--gold-l)}
+.engine.hl p{color:var(--mist)}
+.engine.hl .gen{color:#fff}
+.engine.hl .gen b{color:var(--gold-l)}
+.cycle{margin-top:60px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px 18px;font-family:var(--serif);font-size:24px;color:var(--ink)}
+.cycle span.a{color:var(--gold);font-family:var(--sans);font-size:16px}
+.cycle em{color:var(--gold-d)}
+
+/* roadmap sticky */
+.road{display:grid;grid-template-columns:.8fr 1.2fr;gap:90px}
+.road-l{position:sticky;top:120px;align-self:start}
+.road-l .lead{margin-top:28px}
+.road-dots{margin-top:48px;display:grid;gap:4px}
+.road-dots a{display:grid;grid-template-columns:28px 1fr auto;align-items:center;gap:16px;text-decoration:none;padding:14px 0;border-top:1px solid var(--line-d);color:rgba(255,255,255,.4);transition:color .5s var(--ease)}
+.road-dots a .d{width:10px;height:10px;border-radius:50%;border:1px solid currentColor;transition:background .5s,border-color .5s,transform .5s var(--ease)}
+.road-dots a b{font-family:var(--serif);font-weight:500;font-size:24px}
+.road-dots a small{font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.road-dots a.act{color:#fff}
+.road-dots a.act .d{background:var(--gold);border-color:var(--gold);transform:scale(1.3)}
+.phase{padding:0 0 110px;border-left:1px solid var(--line-d);padding-left:56px;position:relative}
+.phase:last-child{padding-bottom:0}
+.phase::before{content:"";position:absolute;left:-6px;top:10px;width:11px;height:11px;border-radius:50%;background:var(--navy);border:1px solid var(--gold)}
+.phase .m{font-size:11.5px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.phase h3{font-family:var(--serif);font-weight:400;font-size:clamp(48px,5vw,72px);line-height:1;margin:14px 0 20px}
+.phase .goal{font-family:var(--serif);font-size:24px;line-height:1.35;color:#fff;max-width:34ch}
+.phase .img{margin:40px 0;aspect-ratio:16/9;border-radius:4px;overflow:hidden}
+.phase .img .bg{width:100%;height:100%;background-size:cover;background-position:center 28%}
+.phase .cols{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.phase .cols h4{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.phase .list li{font-size:15px}
+.phase .ev{margin-top:30px;display:inline-flex;gap:12px;align-items:center;font-size:14px;color:#fff;border:1px solid rgba(200,166,105,.35);background:rgba(200,166,105,.08);padding:10px 18px;border-radius:999px}
+.phase .ev b{color:var(--gold-l);font-weight:700}
+.goals{margin-top:34px;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line-d)}
+.goals>div{padding:22px 16px 0 0}
+.goals .v{font-family:var(--serif);font-size:40px;line-height:1;color:var(--gold-l)}
+.goals p{font-size:12.5px;line-height:1.45;color:var(--mist);margin-top:8px}
+
+/* pilares conteúdo */
+.mix{display:grid;gap:0;border-top:1px solid var(--line)}
+.mix-row{display:grid;grid-template-columns:90px 1.1fr 1.6fr 1fr;gap:36px;align-items:center;padding:30px 0;border-bottom:1px solid var(--line);transition:background .4s}
+.mix-row:hover{background:linear-gradient(90deg,rgba(200,166,105,.06),transparent)}
+.mix-row .pc{font-family:var(--serif);font-size:44px;line-height:1;color:var(--gold-d)}
+.mix-row h3{font-family:var(--serif);font-weight:500;font-size:27px;line-height:1.1}
+.mix-row h3 small{display:block;font-family:var(--sans);font-size:12px;font-weight:600;color:var(--ink-3);letter-spacing:.06em;margin-top:6px}
+.mix-row p{font-size:15px;color:var(--ink-2);line-height:1.6}
+.mix-row q{font-family:var(--serif);font-style:italic;font-size:19px;line-height:1.35;color:var(--ink);quotes:"“" "”"}
+.bar{height:2px;background:var(--line);margin-top:12px;position:relative;overflow:hidden}
+.bar i{position:absolute;inset:0;background:var(--gold);transform-origin:0 50%;transform:scaleX(0);transition:transform 1.6s var(--ease) .2s}
+.in .bar i{transform:scaleX(var(--p))}
+
+/* mockups */
+.posts{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.post{border-radius:4px;overflow:hidden;background:#fff;border:1px solid var(--line);cursor:default}
+.post .im{aspect-ratio:4/5;position:relative;overflow:hidden}
+.post .im .bg{position:absolute;inset:0;background-size:cover;background-position:center 22%;transition:transform 1.2s var(--ease)}
+.post:hover .im .bg{transform:scale(1.06)}
+.post .im::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,22,48,0) 40%,rgba(11,22,48,.9))}
+.post .fmt{position:absolute;top:16px;left:16px;z-index:2;font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;background:rgba(251,250,246,.92);color:var(--navy);padding:6px 10px;border-radius:999px}
+.post .cap{position:absolute;left:20px;right:20px;bottom:20px;z-index:2;color:#fff;font-family:var(--serif);font-size:25px;line-height:1.1}
+.post .cap em{color:var(--gold-l)}
+.post .why{padding:18px 20px;font-size:13.5px;line-height:1.5;color:var(--ink-2)}
 .post .why b{color:var(--ink)}
 
-/* tabelas */
-table.tb{width:100%;border-collapse:collapse;font-size:14.5px}
-.tb th{text-align:left;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--gold-tx);font-weight:800;padding:8px 10px;border-bottom:2px solid var(--deep)}
-.tb td{padding:10px 10px;border-bottom:1px solid var(--line);color:var(--ink-2);line-height:1.38;vertical-align:top}
-.tb td:first-child{color:var(--ink);font-weight:700}
-.tb .c{text-align:center}
-.tb tr.hi td{background:var(--gold-soft)}
-
 /* semana */
-.week{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}
-.day{border:1px solid var(--line);background:var(--soft);padding:10px 10px 8px}
-.day .d{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--gold-tx);margin-bottom:8px}
-.day .it{font-size:13px;line-height:1.35;color:var(--ink);background:#fff;border-left:3px solid var(--gold);padding:6px 8px;margin-bottom:6px}
-.day .it.s{border-left-color:var(--blue)}
-.day .it.v{border-left-color:var(--deep)}
-.day .it small{display:block;color:var(--ink-3);font-size:10.5px;margin-top:2px}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:10px}
+.day{background:#fff;border:1px solid var(--line);border-radius:4px;padding:18px 14px;min-height:190px}
+.day .d{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-d);margin-bottom:14px}
+.day .it{font-size:13.5px;line-height:1.35;padding:10px 0 10px 12px;border-left:2px solid var(--gold);margin-bottom:10px}
+.day .it small{display:block;color:var(--ink-3);font-size:11.5px;margin-top:3px}
+.day .it.s{border-color:var(--mist)}
+.day .it.v{border-color:var(--navy)}
+.legend{display:flex;gap:24px;margin-top:20px;font-size:13px;color:var(--ink-2);flex-wrap:wrap}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.legend i{width:14px;height:2px;background:var(--gold)}
+.prod{margin-top:56px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.prod>div{border-top:1px solid var(--ink);padding-top:20px}
+.prod h4{font-family:var(--serif);font-weight:500;font-size:24px;margin-bottom:6px}
+.prod p{font-size:14.5px;color:var(--ink-2)}
+.topics{margin-top:80px}
+.topics h3{font-family:var(--serif);font-weight:500;font-size:30px;margin-bottom:26px}
+.topic-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.topic{padding:24px 24px 26px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:background .4s}
+.topic:hover{background:#fff}
+.topic small{display:block;font-size:10.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-d);margin-bottom:8px}
+.topic p{font-family:var(--serif);font-size:21px;line-height:1.25;color:var(--ink)}
 
-/* funil esteira */
-.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:0;align-items:stretch}
-.st{position:relative;padding:12px 14px 12px;background:var(--soft);border:1px solid var(--line);margin-right:14px}
-.st:last-child{margin-right:0}
-.st::after{content:"";position:absolute;right:-12px;top:50%;margin-top:-7px;border:7px solid transparent;border-left:9px solid var(--gold)}
-.st:last-child::after{display:none}
-.st .w{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:var(--deep);display:inline-block;padding:3px 8px;font-weight:800;margin-bottom:10px}
-.st h3{font-size:21px;line-height:1.1;margin-bottom:6px}
-.st p{font-size:13.5px;line-height:1.45;color:var(--ink-2)}
-.st.gold{background:var(--gold-soft);border-color:#e3d1a8}
+/* bio */
+.bio{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.phone{min-width:0;background:#fff;border:1px solid var(--line);border-radius:28px;padding:30px 28px;box-shadow:0 30px 70px rgba(11,22,48,.07)}
+.phone .lab{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;margin-bottom:22px;display:flex;align-items:center;gap:10px}
+.phone.before .lab{color:var(--ink-3)}
+.phone.after{border-color:var(--gold);box-shadow:0 30px 80px rgba(141,108,47,.14)}
+.phone.after .lab{color:var(--gold-d)}
+.ig-head{display:flex;align-items:center;gap:18px;margin-bottom:18px}
+.ig-head .av{width:72px;height:72px;border-radius:50%;background:url(img/paloma-560.jpg) 50% 8%/190% auto no-repeat;box-shadow:0 0 0 2px #fff,0 0 0 4px var(--gold)}
+.ig-head .st{display:flex;gap:22px;font-size:13px;color:var(--ink-2)}
+.ig-head .st b{display:block;color:var(--ink);font-size:16px}
+.ig-name{font-weight:700;font-size:15px}
+.ig-bio{font-size:14.5px;line-height:1.55;color:var(--ink);margin-top:4px}
+.ig-bio .lk{color:#2d4778;font-weight:600}
+.hls{display:flex;gap:14px;margin-top:22px;overflow:hidden}
+.hls div{text-align:center;font-size:11px;color:var(--ink-2);flex:0 0 auto}
+.hls span{display:grid;place-items:center;width:56px;height:56px;border-radius:50%;border:1px solid var(--line);margin:0 auto 6px;background:var(--cream);font-family:var(--serif);font-size:18px;color:var(--ink-3)}
+.phone.after .hls span{background:var(--navy);border-color:var(--gold);color:var(--gold-l)}
+.changes{margin-top:56px;display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line)}
+.changes>div{padding:28px 28px 28px 0}
+.changes h4{font-family:var(--serif);font-weight:500;font-size:23px;margin-bottom:6px}
+.changes p{font-size:14.5px;color:var(--ink-2);line-height:1.55}
 
 /* campanhas */
-.camp{border:1px solid var(--line);background:#fff;display:flex;flex-direction:column}
-.camp .hd{background:var(--deep);color:#fff;padding:12px 14px}
-.camp .hd .n{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-lit);font-weight:800}
-.camp .hd h3{font-size:21px;line-height:1.1;margin-top:3px}
-.camp .bd{padding:12px 14px;font-size:14px;line-height:1.42;color:var(--ink-2);flex:1;display:flex;flex-direction:column}
-.camp .bd p{margin-bottom:8px}
-.camp .bd b{color:var(--ink)}
-.camp .ft{border-top:1px solid var(--line);padding:8px 14px;font-size:11.5px;color:var(--gold-tx);font-weight:700;background:var(--gold-soft)}
+.camps{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.camp{background:var(--navy-2);border:1px solid var(--line-d);border-radius:4px;padding:30px 24px 26px;display:flex;flex-direction:column;transition:border-color .5s,transform .6s var(--ease)}
+.camp:hover{border-color:rgba(200,166,105,.5);transform:translateY(-6px)}
+.camp .n{font-family:var(--serif);font-style:italic;font-size:20px;color:var(--gold)}
+.camp h3{font-family:var(--serif);font-weight:500;font-size:30px;margin:6px 0 18px}
+.camp dl{font-size:14px;line-height:1.5}
+.camp dt{font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45);margin-top:12px}
+.camp dd{color:var(--mist)}
+.camp .ex{margin-top:22px;font-family:var(--serif);font-style:italic;font-size:19px;line-height:1.3;color:#fff;padding-top:18px;border-top:1px solid var(--line-d)}
+.camp .ms{margin-top:auto;padding-top:20px;font-size:12px;font-weight:600;color:var(--gold-l)}
+.alloc{margin-top:110px;display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:start}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:30px 0 0;background:rgba(255,255,255,.05);padding:6px;border-radius:999px;width:max-content;max-width:100%}
+.tabs button{font:600 13px var(--sans);color:var(--mist);background:none;border:0;padding:10px 18px;border-radius:999px;cursor:pointer;transition:background .35s var(--ease),color .35s}
+.tabs button:hover{color:#fff}
+.tabs button.act{background:var(--gold);color:var(--navy)}
+.tabs button:focus-visible,.btn:focus-visible,.nav a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.bars{display:grid;gap:22px}
+.brow{display:grid;grid-template-columns:120px 1fr 60px;gap:20px;align-items:center}
+.brow span{font-size:14.5px;font-weight:600}
+.brow .tr{height:10px;background:rgba(255,255,255,.07);border-radius:999px;overflow:hidden}
+.brow .tr i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold-d),var(--gold-l));border-radius:999px;transition:width 1s var(--ease)}
+.brow b{font-family:var(--serif);font-size:26px;font-weight:500;text-align:right;color:var(--gold-l)}
+.city-note{margin-top:28px;font-size:14px;color:var(--mist)}
+.city-note b{color:#fff}
+.rules{margin-top:80px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rules>div{border-top:1px solid var(--line-d);padding-top:22px}
+.rules .n{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:20px}
+.rules p{font-size:15px;color:var(--mist);margin-top:6px}
+
+/* esteira */
+.flow{position:relative;display:grid;grid-template-columns:repeat(5,1fr);gap:20px;padding-top:44px}
+.flow-line{position:absolute;top:10px;left:0;right:0;height:1px;background:var(--line)}
+.flow-line i{position:absolute;inset:0;background:var(--gold);transform-origin:0 50%;transform:scaleX(0);transition:transform 2.2s var(--ease)}
+.flow.in .flow-line i{transform:scaleX(1)}
+.step{position:relative}
+.step::before{content:"";position:absolute;top:-40px;left:0;width:13px;height:13px;border-radius:50%;background:var(--ivory);border:1px solid var(--gold)}
+.step.key::before{background:var(--gold)}
+.step .w{font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-d)}
+.step h3{font-family:var(--serif);font-weight:500;font-size:27px;line-height:1.1;margin:10px 0 12px}
+.step p{font-size:14.5px;color:var(--ink-2);line-height:1.6}
+.funnel{margin-top:90px;background:var(--navy);color:#fff;border-radius:4px;display:grid;grid-template-columns:repeat(5,1fr)}
+.funnel>div{padding:40px 30px;border-right:1px solid var(--line-d)}
+.funnel>div:last-child{border-right:0;background:rgba(200,166,105,.1)}
+.funnel .v{font-family:var(--serif);font-size:52px;line-height:1;color:var(--gold-l)}
+.funnel>div:last-child .v{color:#fff}
+.funnel p{font-size:13.5px;color:var(--mist);margin-top:10px;line-height:1.5}
+.funnel-cap{font-size:13px;color:var(--ink-3);margin-top:14px}
+.principles{margin-top:64px;display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.principles h4{font-family:var(--serif);font-weight:500;font-size:25px;margin-bottom:8px}
+.principles p{font-size:15px;color:var(--ink-2)}
+
+/* abordagem */
+.fronts{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.front{background:var(--ivory);padding:40px 36px;transition:background .5s}
+.front:hover{background:#fff}
+.front .n{font-family:var(--serif);font-style:italic;font-size:20px;color:var(--gold-d)}
+.front h3{font-family:var(--serif);font-weight:500;font-size:28px;margin:8px 0 12px}
+.front p{font-size:15px;color:var(--ink-2);line-height:1.6}
+.front q{display:block;margin-top:20px;font-family:var(--serif);font-style:italic;font-size:18px;line-height:1.35;color:var(--ink);padding-left:16px;border-left:1px solid var(--gold);quotes:none}
+.script{margin-top:70px;display:grid;grid-template-columns:repeat(4,1fr);gap:0;counter-reset:s}
+.script>div{padding:0 26px 0 0;position:relative}
+.script>div::before{counter-increment:s;content:"0" counter(s);display:block;font-family:var(--serif);font-size:44px;color:var(--gold-d);line-height:1;margin-bottom:14px}
+.script p{font-size:15.5px;color:var(--ink);line-height:1.5}
+.script>div:not(:last-child)::after{content:"";position:absolute;right:26px;top:22px;width:40px;height:1px;background:var(--gold)}
+
+/* oab */
+.oab{display:grid;grid-template-columns:1fr 1fr;gap:80px}
+.do-dont{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.dd{border-radius:4px;padding:32px 30px}
+.dd.y{background:#fff;border:1px solid var(--line)}
+.dd.n{background:var(--navy-2);color:#fff}
+.dd h4{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px}
+.dd.y h4{color:#2f6b4f}.dd.n h4{color:#e79b86}
+.dd ul{list-style:none}
+.dd li{font-size:15px;padding:11px 0;border-top:1px solid var(--line)}
+.dd.n li{border-color:var(--line-d);color:var(--mist)}
+.dd li:first-child{border-top:0}
+.ex-pair{margin-top:20px;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.ex-pair div{padding:22px 24px;border-radius:4px;font-family:var(--serif);font-size:19px;line-height:1.35}
+.ex-pair .bad{background:#f6e7e2;color:#6b3a2e}
+.ex-pair .good{background:#e4f0e9;color:#1f4a36}
+.ex-pair b{display:block;font-family:var(--sans);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:8px}
+
+/* metas */
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;min-width:720px}
+th{text-align:right;font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);padding:0 0 20px;border-bottom:1px solid rgba(255,255,255,.25)}
+th:first-child{text-align:left}
+td{padding:22px 0;border-bottom:1px solid var(--line-d);text-align:right;font-family:var(--serif);font-size:26px;color:#fff;font-variant-numeric:lining-nums tabular-nums}
+td:first-child{text-align:left;font-family:var(--sans);font-size:15px;color:var(--mist)}
+td.now{color:rgba(255,255,255,.4)}
+tr.key td:first-child{color:#fff;font-weight:600}
+tr.key td:not(:first-child){color:var(--gold-l)}
+tr{transition:background .3s}
+tbody tr:hover{background:rgba(255,255,255,.03)}
 
 /* investimento */
-.inv{border:1px solid var(--line);padding:20px 22px;display:flex;flex-direction:column;background:#fff;position:relative}
-.inv.rec{border:2px solid var(--gold);background:var(--gold-soft)}
-.inv .badge{position:absolute;top:-12px;left:20px;background:var(--gold);color:var(--deep);font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:4px 10px}
-.inv .nm{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--gold-tx)}
-.inv .vl{font-family:var(--serif);font-size:52px;line-height:1;margin:8px 0 2px}
-.inv .vl small{font-size:18px;color:var(--ink-2)}
-.inv .ds{font-size:12.5px;color:var(--ink-3);margin-bottom:12px}
-.inv ul{list-style:none;border-top:1px solid var(--line);padding-top:10px}
-.inv li{margin-bottom:9px!important;font-size:15px;line-height:1.42;color:var(--ink-2);padding-left:16px;position:relative;margin-bottom:6px}
-.inv li::before{content:"✓";position:absolute;left:0;color:var(--gold-tx);font-weight:800;font-size:12px}
+.plans{display:grid;grid-template-columns:1fr 1.08fr 1fr;gap:20px;align-items:stretch}
+.plan{background:#fff;border:1px solid var(--line);border-radius:4px;padding:44px 38px 38px;display:flex;flex-direction:column;position:relative;transition:transform .6s var(--ease),box-shadow .6s var(--ease)}
+.plan:hover{transform:translateY(-6px);box-shadow:0 30px 70px rgba(11,22,48,.08)}
+.plan.rec{background:var(--navy);color:#fff;border-color:var(--navy);transform:translateY(-14px)}
+.plan.rec:hover{transform:translateY(-20px)}
+.plan .badge{position:absolute;top:-13px;left:38px;font-size:10.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;background:var(--gold);color:var(--navy);padding:6px 12px;border-radius:999px}
+.plan .nm{font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-d)}
+.plan.rec .nm{color:var(--gold)}
+.plan .pr{font-family:var(--serif);font-size:64px;line-height:1;margin:18px 0 4px}
+.plan .pr small{font-family:var(--sans);font-size:15px;color:var(--ink-3)}
+.plan.rec .pr small{color:var(--mist)}
+.plan .ds{font-size:14px;color:var(--ink-3);margin-bottom:26px}
+.plan.rec .ds{color:var(--mist)}
+.plan ul{list-style:none;border-top:1px solid var(--line);padding-top:16px}
+.plan.rec ul{border-color:var(--line-d)}
+.plan li{position:relative;padding:8px 0 8px 26px;font-size:15px;color:var(--ink-2)}
+.plan.rec li{color:#dfe5f1}
+.plan li svg{position:absolute;left:0;top:13px;width:14px;height:14px;color:var(--gold-d)}
+.plan.rec li svg{color:var(--gold)}
+.plan .res{margin-top:auto;padding-top:28px;display:flex;align-items:baseline;gap:12px}
+.plan .res b{font-family:var(--serif);font-weight:400;font-size:42px;line-height:1}
+.plan .res span{font-size:13px;color:var(--ink-3);line-height:1.35}
+.plan.rec .res span{color:var(--mist)}
+.plan.rec .res b{color:var(--gold-l)}
+.plans-note{margin-top:40px;font-size:14px;color:var(--ink-3);text-align:center}
 
-.pill{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;background:var(--blue-soft);color:var(--blue-tx);margin:0 4px 4px 0}
-.quote{font-family:var(--serif);font-size:30px;line-height:1.2;color:#fff}
-.quote i{color:var(--gold-lit)}
-.mini{margin-top:auto;padding-top:12px;border-top:1px solid var(--line);font-size:13px;line-height:1.45;color:var(--ink-2)}
-.mini b{color:var(--gold-tx);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;display:block;margin-bottom:3px}
-.card{display:flex;flex-direction:column}
-.ph-cols .card li{font-size:14.5px}
-.ex{font-family:var(--serif);font-style:italic;font-size:17px;line-height:1.3;color:var(--ink);background:var(--gold-soft);border-left:3px solid var(--gold);padding:8px 10px;margin-top:auto}
-.hl{display:flex;gap:18px;margin-top:12px}
-.hl div{text-align:center;font-size:11px;color:var(--ink-2);font-weight:600}
-.hl span{display:block;width:56px;height:56px;border-radius:50%;border:2px solid var(--gold);background:var(--deep);margin:0 auto 6px;color:var(--gold-lit);font-family:var(--serif);font-size:22px;line-height:52px}
-.pz{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-.pz div{background:#fff;border:1px solid var(--line);padding:9px 12px;font-size:13.5px;line-height:1.35;color:var(--ink)}
-.pz div small{display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-tx);font-weight:800;margin-bottom:2px}
-.tl-i .out{margin-top:10px;display:flex;gap:8px}
-.tl-i .out>div{flex:1;border-top:1px solid rgba(255,255,255,.18);padding-top:8px}
-.tl-i .out .v{font-family:var(--serif);font-size:30px;color:#fff;line-height:1}
-.tl-i .out .l{font-size:11.5px;color:#aeb8cf;margin-top:3px}
-.math{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin-top:auto;background:var(--deep);color:#fff}
-.math>div{padding:14px 18px;border-right:1px solid rgba(255,255,255,.12)}
-.math>div:last-child{border-right:0}
-.math .v{font-family:var(--serif);font-size:34px;line-height:1;color:var(--gold-lit)}
-.math .l{font-size:12px;color:#aeb8cf;margin-top:4px;line-height:1.35}
-.wr{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
-.wr div{padding:12px 16px;font-size:14px;line-height:1.45}
-.wr .no{background:var(--red-soft);border-left:3px solid var(--red);color:var(--ink-2)}
-.wr .yes{background:var(--ok-soft);border-left:3px solid var(--ok);color:var(--ink)}
-.wr b{display:block;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;margin-bottom:4px}
-.wr .no b{color:var(--red)} .wr .yes b{color:var(--ok)}
-.tight .chk li{padding:6px 0 6px 28px;font-size:14.5px}
-.tight .chk li::before{top:10px}
-.cm .card{padding:12px 16px}
-.cm .card p{font-size:13.5px;line-height:1.42}
-.cm .ex{font-size:14.5px!important;padding:6px 10px;margin-top:8px}
+/* próximos 15 dias */
+.next{display:grid;grid-template-columns:1fr .8fr;gap:80px;align-items:center}
+.checks{list-style:none;margin-top:40px;counter-reset:c}
+.checks li{display:grid;grid-template-columns:52px 1fr;gap:10px;padding:20px 0;border-top:1px solid var(--line);font-size:16px;color:var(--ink-2);line-height:1.55}
+.checks li::before{counter-increment:c;content:counter(c,decimal-leading-zero);font-family:var(--serif);font-size:22px;color:var(--gold-d);line-height:1.2}
+.checks li b{color:var(--ink)}
+.next .ph{aspect-ratio:3/4;border-radius:4px;overflow:hidden;position:relative}
+.next .ph .bg{position:absolute;inset:0;background:url(img/encontro-3.jpg) center 25%/cover}
+.next .ph .tag{position:absolute;left:24px;right:24px;bottom:24px;z-index:2;background:rgba(251,250,246,.94);backdrop-filter:blur(8px);padding:20px 22px;border-radius:4px}
+.next .ph .tag b{display:block;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-d);margin-bottom:6px}
+.next .ph .tag p{font-family:var(--serif);font-size:21px;line-height:1.25;color:var(--ink)}
+
+/* final */
+.final{padding:180px 0 120px;text-align:center;overflow:hidden}
+.final .h-lg{max-width:20ch;margin:0 auto}
+.decisions{max-width:980px;margin:90px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:2px;text-align:left}
+.decisions>div{background:var(--navy-2);padding:36px 32px}
+.decisions .n{font-family:var(--serif);font-size:50px;line-height:1;color:var(--gold-l)}
+.decisions h4{font-family:var(--serif);font-weight:500;font-size:24px;margin:16px 0 8px;color:#fff}
+.decisions p{font-size:14.5px;color:var(--mist)}
+.final .cta{margin-top:70px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+footer{background:var(--navy);color:rgba(255,255,255,.4);font-size:12.5px;border-top:1px solid var(--line-d)}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;padding-top:32px;padding-bottom:32px;flex-wrap:wrap}
+.photostrip{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:100px}
+.photostrip>div{aspect-ratio:3/4;background-size:cover;background-position:center 25%;border-radius:4px;opacity:.85;transition:opacity .5s}
+.photostrip>div:hover{opacity:1}
+
+/* responsivo */
+@media (max-width:1080px){
+  .nav ul{display:none}
+  .camps{grid-template-columns:repeat(2,1fr)}
+  .engines,.pillars{grid-template-columns:repeat(2,1fr)}
+  .pillar:nth-child(2){border-right:0;margin-right:0}
+  .posts{grid-template-columns:repeat(2,1fr)}
+  .week{grid-template-columns:repeat(4,1fr)}
+}
+@media (max-width:860px){
+  .phone{padding:24px 18px;border-radius:22px}
+  .ig-head{gap:12px}.ig-head .av{width:56px;height:56px}.ig-head .st{gap:12px;font-size:11.5px}.ig-head .st b{font-size:14px}
+  .hls{gap:8px}.hls span{width:46px;height:46px}
+  .bio>*,.alloc>*,.road>*,.oab>*,.next>*,.pos>*,.sec-head>*{min-width:0}
+  .tabs{width:100%;justify-content:space-between}.tabs button{padding:10px 12px;font-size:12.5px}
+  body{font-size:16px}
+  .wrap{padding:0 20px}
+  .pad{padding:96px 0}
+  .sec-head,.two,.pos,.road,.alloc,.oab,.next,.bio{grid-template-columns:1fr;gap:40px}
+  .sec-head{margin-bottom:48px}
+  .hero{grid-template-columns:1fr;min-height:auto}
+  .hero-r{height:62svh;order:-1}
+  .hero-r::before{background:linear-gradient(0deg,var(--navy) 0%,rgba(11,22,48,0) 45%)}
+  .hero-l{padding:10px 20px 80px}
+  .hero-meta{flex-wrap:wrap;gap:20px 32px}
+  .scroll-cue{display:none}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat:nth-child(2){border-right:0}
+  .stat:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .stat{padding:28px 18px}
+  .panel{padding:30px 24px}
+  .vs,.cities,.decisions,.prod,.changes,.rules,.principles,.do-dont,.ex-pair,.plans{grid-template-columns:1fr}
+  .quote-sec,.final{padding:110px 0}
+  .pillars,.engines{grid-template-columns:1fr}
+  .pillar{border-right:0;margin-right:0;border-bottom:1px solid var(--line);padding-right:0}
+  .statement{grid-template-columns:1fr;padding:40px 28px;gap:16px}
+  .brand-row{grid-template-columns:32px 1fr}
+  .brand-row p{grid-column:2}
+  .road-l{position:relative;top:0}
+  .road-dots{display:none}
+  .phase{padding-left:28px;padding-bottom:80px}
+  .phase .cols{grid-template-columns:1fr;gap:20px}
+  .goals{grid-template-columns:1fr 1fr}
+  .goals>div{padding-bottom:16px}
+  .mix-row{grid-template-columns:64px 1fr;gap:12px 20px}
+  .mix-row p,.mix-row q{grid-column:2}
+  .mix-row .pc{font-size:34px}
+  .posts{grid-template-columns:1fr 1fr;gap:12px}
+  .post .cap{font-size:19px;left:14px;right:14px;bottom:14px}
+  .post .why{padding:14px;font-size:12.5px}
+  .week{grid-template-columns:1fr 1fr}
+  .day{min-height:0}
+  .topic-grid{grid-template-columns:1fr}
+  .camps{grid-template-columns:1fr}
+  .brow{grid-template-columns:96px 1fr 48px;gap:12px}
+  .flow{grid-template-columns:1fr;gap:34px;padding-top:0;padding-left:34px}
+  .flow-line{top:0;bottom:0;left:6px;right:auto;width:1px;height:auto}
+  .flow-line i{transform-origin:50% 0;transform:scaleY(0)}
+  .flow.in .flow-line i{transform:scaleY(1)}
+  .step::before{top:6px;left:-34px}
+  .funnel{grid-template-columns:1fr 1fr}
+  .funnel>div{border-bottom:1px solid var(--line-d)}
+  .funnel>div:last-child{grid-column:1/-1}
+  .fronts{grid-template-columns:1fr}
+  .script{grid-template-columns:1fr 1fr;gap:30px 0}
+  .script>div::after{display:none}
+  .plan.rec{transform:none}.plan.rec:hover{transform:translateY(-6px)}
+  .photostrip{grid-template-columns:repeat(3,1fr)}
+  .photostrip>div:nth-child(n+4){display:none}
+  .nav{padding:10px 10px 10px 18px}
+  .nav .btn span{display:none}
+  .nav .btn{padding:11px 13px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .rv,.split .w>span,.img-rv,.img-rv img,.img-rv .bg{opacity:1!important;transform:none!important;filter:none!important;clip-path:none!important}
+  .bar i{transform:scaleX(var(--p))!important}.flow-line i{transform:none!important}
+}
+[class*="h-"],.stat .v,.city .v,.goals .v,.funnel .v,.plan .pr,.plan .res b,.mix-row .pc,td,.decisions .n,.brow b,.script>div::before,.checks li::before,.phase h3,.camp .n{font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
 </style>
 </head>
 <body>
 
-<div class="topbar"><span><b>Paloma Rodrigues</b> · Plano de Autoridade · 12 meses</span><a class="dl" href="estudo-paloma-rodrigues.pdf" download>Baixar PDF</a></div>
+<div class="progress" id="progress"></div>
 
-<!-- 01 CAPA -->
-<div class="frame"><section class="slide dark cover">
-  <div class="l">
-    <div class="kicker">Estudo estratégico · Novembro 2026 a Outubro 2027</div>
-    <h1>De anfitriã a <i>referência</i>: o plano para Paloma Rodrigues virar o nome do equity na Paraíba</h1>
-    <p class="sub">Como transformar conteúdo, tráfego pago e eventos em autoridade reconhecida por empresários de João Pessoa e Campina Grande, com metas para 3, 6, 9 e 12 meses.</p>
-    <div class="rule"></div>
-    <div class="meta">Preparado para <b>Paloma Rodrigues</b> · Expansão Sólida · Equity Code<br>Por <b>Felipe Cavalcanti</b> · Felipe Digital</div>
-  </div>
-  <div class="r"><div class="photo" style="background-image:url(img/paloma-900.jpg)"></div></div>
-</section></div>
+<nav class="nav on-dark" id="nav" aria-label="Seções">
+  <a href="#topo" class="brand">Paloma <i>Rodrigues</i></a>
+  <ul>
+    <li><a href="#tese">Tese</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#conteudo">Conteúdo</a></li>
+    <li><a href="#trafego">Tráfego</a></li>
+    <li><a href="#vendas">Vendas</a></li>
+    <li><a href="#investimento">Investimento</a></li>
+  </ul>
+  <a class="btn" href="estudo-paloma-rodrigues.pdf" download><span>Baixar PDF</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></a>
+</nav>
 
-<!-- 02 PONTO DE PARTIDA -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">01 · Ponto de partida</span><span class="pg">02</span></div>
-  <h2 class="t">A base já é boa. O que falta é o mercado <i>saber disso</i>.</h2>
-  <p class="lede">Paloma tem currículo, experiência e um evento de alto padrão rodando. O problema não é falta de competência: é falta de lembrança.</p>
-  <div class="nums" style="margin:12px 0 12px">
-    <div class="num"><div class="v">+400</div><div class="l">empresas atendidas em 6 anos de assessoria societária</div></div>
-    <div class="num"><div class="v">7,4<small> mil</small></div><div class="l">seguidores no Instagram hoje, a base de onde partimos</div></div>
-    <div class="num"><div class="v">2<small>ª</small></div><div class="l">edição do evento em 03/11, depois da Confraria Wine Equity</div></div>
-    <div class="num"><div class="v">150</div><div class="l">empresários no Hotel Nord Luxxor, com palestrantes nacionais</div></div>
+<!-- HERO -->
+<header class="hero" id="topo">
+  <div class="hero-l">
+    <span class="eyebrow rv">Estudo estratégico · Nov 2026 – Out 2027</span>
+    <h1 class="h-xl split">De anfitriã a <em>referência</em> em equity na Paraíba</h1>
+    <p class="lead rv d3">Como transformar conteúdo, tráfego pago e eventos em autoridade reconhecida por empresários de João Pessoa e Campina Grande, com metas para 3, 6, 9 e 12 meses.</p>
+    <div class="hero-meta rv d4">
+      <div>Preparado para<b>Paloma Rodrigues</b></div>
+      <div>Por<b>Felipe Cavalcanti</b></div>
+    </div>
   </div>
-  <div class="g2 tight" style="flex:1">
-    <div class="card"><div class="ct">O que já joga a favor</div>
-      <ul class="chk">
-        <li><b>Formação rara:</b> Direito Empresarial e Societário + UX pela PUCRS.</li>
+  <div class="hero-r" aria-hidden="true"><div class="ph" id="heroPh"></div></div>
+</header>
+
+<!-- 01 PONTO DE PARTIDA -->
+<section class="pad" id="partida">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">01 · Ponto de partida</span><h2 class="h-lg split">A base já é boa. Falta o mercado <em>saber disso</em>.</h2></div>
+      <p class="lead rv d2">Paloma tem currículo, experiência e um evento de alto padrão rodando. O problema não é falta de competência: é falta de lembrança. Hoje ela é conhecida como quem organiza o evento, e o plano existe para que seja conhecida como quem entende do assunto.</p>
+    </div>
+    <div class="stats">
+      <div class="stat rv"><div class="v"><span class="count" data-to="400" data-pre="+">0</span></div><p>empresas atendidas em 6 anos de assessoria societária</p></div>
+      <div class="stat rv d1"><div class="v"><span class="count" data-to="7.4" data-dec="1">0</span><small>mil</small></div><p>seguidores no Instagram hoje, a base de onde partimos</p></div>
+      <div class="stat rv d2"><div class="v"><span class="count" data-to="2">0</span><small>ª edição</small></div><p>do evento em 03/11, depois da Confraria Wine Equity</p></div>
+      <div class="stat rv d3"><div class="v"><span class="count" data-to="150">0</span></div><p>empresários no Hotel Nord Luxxor, com palestrantes nacionais</p></div>
+    </div>
+    <div class="two">
+      <div class="panel rv"><h3>O que já joga a favor</h3><ul class="list">
+        <li><b>Formação rara:</b> Direito Empresarial e Societário, mais UX pela PUCRS.</li>
         <li><b>Selo institucional:</b> mentora no Parque Tecnológico da Paraíba.</li>
         <li><b>Método próprio:</b> Arquitetura de Equity e Prevenção 360º.</li>
-        <li><b>Estética premium</b> nas fotos e nos eventos, que já parece de “gente grande”.</li>
-      </ul>
-    </div>
-    <div class="card"><div class="ct" style="color:var(--red)">O que ainda trava</div>
-      <ul class="chk x">
-        <li><b>O perfil virou vitrine do evento:</b> contagem regressiva e divulgação, pouco ensino.</li>
-        <li><b>A autoridade é emprestada:</b> quem atrai o público hoje são os palestrantes convidados.</li>
-        <li><b>Cada edição recomeça do zero:</b> não existe lista própria aquecida entre um evento e outro.</li>
+        <li><b>Estética premium</b> nas fotos e nos eventos, com cara de grande evento.</li>
+      </ul></div>
+      <div class="panel rv d2"><h3>O que ainda trava</h3><ul class="list neg">
+        <li><b>O perfil virou vitrine do evento:</b> muita contagem regressiva, pouco ensino.</li>
+        <li><b>A autoridade é emprestada:</b> quem atrai o público hoje são os palestrantes.</li>
+        <li><b>Cada edição recomeça do zero:</b> não há lista própria aquecida entre eventos.</li>
         <li><b>Campina Grande ainda não conhece</b> a Paloma.</li>
-      </ul>
+      </ul></div>
     </div>
   </div>
-  <div class="band" style="margin-top:14px"><span class="k">Diagnóstico</span><p>A Paloma é conhecida <i>como quem organiza o evento</i>. O plano existe para ela ser conhecida como quem entende do assunto.</p></div>
-</section></div>
+</section>
 
-<!-- 03 TENSÃO -->
-<div class="frame"><section class="slide dark" style="justify-content:center">
-  <div class="s-head" style="position:absolute;top:44px;left:64px;right:64px"><span class="tag">02 · O que está em jogo</span><span class="pg">03</span></div>
-  <div style="display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center">
+<!-- 02 TENSÃO -->
+<section class="dark quote-sec">
+  <div class="wrap">
+    <span class="eyebrow rv">02 · O que está em jogo</span>
+    <h2 class="h-lg split" style="margin-top:34px">Hoje quem enche o evento são os convidados. Em 12 meses, tem que ser <em>a Paloma</em>.</h2>
+    <p class="lead rv d2">Enquanto a autoridade for emprestada, cada evento depende de um nome maior, custa mais caro para vender e não deixa patrimônio. Quando ela é própria, o evento vende pela anfitriã e os empresários procuram a Paloma antes do anúncio.</p>
+    <div class="vs">
+      <div class="rv"><div class="k">Sem um plano</div><p>Ingresso mais caro de vender, dependência de palestrante famoso e presença local que some entre um evento e outro.</p></div>
+      <div class="rv d2"><div class="k">Com o plano</div><p>Lista própria de empresários, eventos vendidos antes da abertura, convites para palestrar e um calendário anual que se sustenta.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 03 TESE -->
+<section class="pad" id="tese">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">03 · A tese</span><h2 class="h-lg split">Ser <em>o primeiro nome lembrado</em> quando um empresário pensa em crescer com sócios.</h2></div>
+      <p class="lead rv d2">Autoridade não é ter muitos seguidores. É ocupar um lugar na cabeça de um grupo específico de pessoas. Construímos isso com quatro peças que trabalham sempre juntas.</p>
+    </div>
+    <div class="pillars">
+      <div class="pillar rv"><div class="n">i.</div><h3>Tema dono</h3><p>“Equity” ainda não tem dono na Paraíba. Quem explicar primeiro, e de forma simples, fica com a palavra.</p><div class="how"><b>Como aplicamos</b>Série “Equity sem juridiquês” e Diagnóstico de Expansão.</div></div>
+      <div class="pillar rv d1"><div class="n">ii.</div><h3>Frequência</h3><p>O empresário certo precisa cruzar com a Paloma várias vezes por semana, no perfil e nos anúncios.</p><div class="how"><b>Como aplicamos</b>4 a 5 posts por semana e anúncio contínuo em JP e CG.</div></div>
+      <div class="pillar rv d2"><div class="n">iii.</div><h3>Prova</h3><p>Casos reais, bastidores de reuniões, depoimentos de empresários locais e presença na imprensa.</p><div class="how"><b>Como aplicamos</b>30 depoimentos do dia 03/11 e pautas na imprensa local.</div></div>
+      <div class="pillar rv d3"><div class="n">iv.</div><h3>Palco</h3><p>Eventos próprios e falas em eventos dos outros. Quem reúne os empresários vira o centro do ecossistema.</p><div class="how"><b>Como aplicamos</b>Confraria mensal, duas imersões por ano e palestras convidadas.</div></div>
+    </div>
+    <div class="statement rv"><span class="k">A frase-guia</span><p>Os outros falam de crescer. Paloma mostra <em>como estruturar</em> o crescimento para ele não virar briga de sócio, dívida ou dependência do dono.</p></div>
+  </div>
+</section>
+
+<!-- 04 POSICIONAMENTO -->
+<section class="pad cream">
+  <div class="wrap pos">
     <div>
-      <p class="quote">Hoje, quem enche o evento são os nomes convidados.<br>Em 12 meses, quem precisa encher é <i>a Paloma</i>.</p>
-      <p class="lede" style="margin-top:22px;font-size:17px">Enquanto a autoridade for emprestada, cada evento depende de contratar um nome maior, custa mais caro para vender e não deixa patrimônio. Quando a autoridade é própria, o evento passa a vender pela anfitriã, os palestrantes viram tempero e os empresários começam a procurar a Paloma <b style="color:#fff">antes</b> do anúncio.</p>
-    </div>
-    <div style="display:grid;gap:12px">
-      <div style="border:1px solid rgba(255,255,255,.14);padding:16px 20px"><div class="ct" style="color:#ff9d86">Sem um plano</div><p style="color:#aeb8cf;font-size:14.5px;line-height:1.5">Mais caro para vender cada ingresso, dependência de palestrante famoso, presença local que some entre um evento e outro.</p></div>
-      <div style="border:1px solid var(--gold);background:rgba(200,166,105,.1);padding:16px 20px"><div class="ct" style="color:var(--gold-lit)">Com o plano</div><p style="color:#fff;font-size:14.5px;line-height:1.5">Lista própria de empresários, eventos vendidos antes da abertura oficial, convites para palestrar e um calendário anual que se sustenta.</p></div>
-    </div>
-  </div>
-  <div class="foot"><span>Paloma Rodrigues · Plano de Autoridade</span><span>Felipe Digital</span></div>
-</section></div>
-
-<!-- 04 TESE -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">03 · A tese</span><span class="pg">04</span></div>
-  <h2 class="t">Autoridade é ser <i>o primeiro nome lembrado</i> quando um empresário pensa em crescer com sócios.</h2>
-  <p class="lede">Não é ter muitos seguidores. É ocupar um lugar na cabeça de um grupo específico de pessoas. A gente constrói isso com quatro peças, sempre juntas:</p>
-  <div class="g4" style="margin-top:20px">
-    <div class="card" style="border-top:3px solid var(--gold)"><div class="ct">1 · Tema dono</div><h3>Uma palavra só</h3><p>“Equity” ainda não tem dono na Paraíba. Quem explicar primeiro, e de forma simples, fica com a palavra.</p><div class="mini"><b>Como aplicamos</b>Série “Equity sem juridiquês” e o Diagnóstico de Expansão.</div></div>
-    <div class="card" style="border-top:3px solid var(--gold)"><div class="ct">2 · Frequência</div><h3>Ser vista toda semana</h3><p>O empresário certo precisa cruzar com a Paloma várias vezes por semana, no perfil e nos anúncios.</p><div class="mini"><b>Como aplicamos</b>4 a 5 posts por semana e anúncio contínuo em JP e CG.</div></div>
-    <div class="card" style="border-top:3px solid var(--gold)"><div class="ct">3 · Prova</div><h3>Mostrar, não dizer</h3><p>Casos reais, bastidores de reuniões, depoimentos de empresários locais e presença na imprensa.</p><div class="mini"><b>Como aplicamos</b>30 depoimentos do dia 03/11 e pautas na imprensa local.</div></div>
-    <div class="card" style="border-top:3px solid var(--gold)"><div class="ct">4 · Palco</div><h3>Ser quem reúne</h3><p>Eventos próprios e falas em eventos dos outros. Quem reúne os empresários vira centro do ecossistema.</p><div class="mini"><b>Como aplicamos</b>Confraria mensal, duas imersões por ano e palestras convidadas.</div></div>
-  </div>
-  <div class="band"><span class="k">A frase-guia</span><p>Os outros falam de crescer. Paloma mostra <i>como estruturar</i> o crescimento para ele não virar briga de sócio, dívida ou dependência do dono.</p></div>
-</section></div>
-
-<!-- 05 POSICIONAMENTO -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">04 · Posicionamento</span><span class="pg">05</span></div>
-  <div style="display:grid;grid-template-columns:1fr 360px;gap:36px;flex:1;min-height:0">
-    <div style="display:flex;flex-direction:column">
-      <h2 class="t">“A advogada que estrutura o crescimento das empresas da Paraíba.”</h2>
-      <p class="lede">Coach fala de mentalidade. Contador fala de imposto. Consultor fala de processo. A Paloma é a única desse grupo que entrega a <b>peça que faz o crescimento acontecer com segurança</b>: a sociedade bem desenhada.</p>
-      <div class="ct" style="margin-top:18px">Três marcas, um papel para cada</div>
-      <div class="g3">
-        <div class="card"><h3>Paloma</h3><p>A pessoa, o rosto e a voz. É ela quem ganha autoridade, segue para qualquer evento e qualquer cidade.</p></div>
-        <div class="card"><h3>Expansão Sólida · Equity Code</h3><p>A marca dos eventos e da comunidade. Pode vender ingresso, patrocínio e anúncio sem restrição.</p></div>
-        <div class="card"><h3>Rodrigues Advocacia</h3><p>O escritório. Fica nos bastidores, com comunicação informativa, dentro das regras da OAB.</p></div>
+      <span class="eyebrow rv">04 · Posicionamento</span>
+      <h2 class="h-lg split" style="margin-top:26px">A advogada que <em>estrutura</em> o crescimento das empresas da Paraíba.</h2>
+      <p class="lead rv d2" style="margin-top:26px">Coach fala de mentalidade. Contador fala de imposto. Consultor fala de processo. A Paloma é a única desse grupo que entrega a peça que faz o crescimento acontecer com segurança: a sociedade bem desenhada.</p>
+      <div class="brands">
+        <div class="brand-row rv"><span class="i">a.</span><h4>Paloma</h4><p>A pessoa, o rosto e a voz. É ela quem ganha autoridade e a leva para qualquer evento ou cidade.</p></div>
+        <div class="brand-row rv d1"><span class="i">b.</span><h4>Expansão Sólida · Equity Code</h4><p>A marca dos eventos e da comunidade. Pode vender ingresso, patrocínio e anúncio sem restrição.</p></div>
+        <div class="brand-row rv d2"><span class="i">c.</span><h4>Rodrigues Advocacia</h4><p>O escritório. Fica nos bastidores, com comunicação informativa e dentro das regras da OAB.</p></div>
       </div>
-      <p class="src" style="margin-top:10px">Separar as três marcas protege o escritório e deixa o evento livre para ser vendido de forma comercial.</p>
-      <div class="band"><span class="k">Em 10 segundos</span><p>“Eu ajudo empresários a crescer <i>com sócios certos</i>, sem colocar todo o lucro de volta e sem perder o controle.”</p></div>
+      <p class="pitch rv">“Eu ajudo empresários a crescer com sócios certos, sem colocar todo o lucro de volta e sem perder o controle.”</p>
     </div>
-    <div class="photo" style="background-image:url(img/ig-palco.jpg);background-position:center 30%"></div>
+    <div class="ph img-rv"><div class="bg" role="img" aria-label="Paloma Rodrigues falando em palco"></div></div>
   </div>
-</section></div>
+</section>
 
-<!-- 06 PÚBLICO -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">05 · Para quem falamos</span><span class="pg">06</span></div>
-  <h2 class="t">Duas cidades, dois papéis e <i>um tipo de empresário</i>.</h2>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1.15fr;gap:14px;margin-top:10px;flex:1;min-height:0">
-    <div class="card" style="background:var(--deep);border-color:var(--deep);color:#fff">
-      <div class="ct" style="color:var(--gold-lit)">João Pessoa · a sede</div>
-      <div style="font-family:var(--serif);font-size:46px;line-height:1">834 mil</div><p style="color:#aeb8cf;font-size:12px;margin:4px 0 12px">habitantes (IBGE, Censo 2022)</p>
-      <p style="color:#dfe5f1;font-size:13.5px;line-height:1.5">Onde a Paloma já tem nome e onde acontecem os eventos grandes. Papel: <b style="color:#fff">aprofundar</b>, virar referência indiscutível e lotar edições maiores.</p>
-      <div class="mini" style="border-color:rgba(255,255,255,.14);color:#dfe5f1"><b style="color:var(--gold-lit)">Por onde entrar</b>Confrarias mensais, imprensa da capital, núcleos e associações empresariais, ex-participantes do evento.</div>
+<!-- 05 PÚBLICO -->
+<section class="pad">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">05 · Para quem falamos</span><h2 class="h-lg split">Duas cidades, dois papéis e <em>um tipo de empresário</em>.</h2></div>
+      <p class="lead rv d2">Falamos com poucos e certos. Mil empresários que lembram da Paloma valem mais que cem mil seguidores aleatórios.</p>
     </div>
-    <div class="card" style="background:var(--deep-2);border-color:var(--deep-2);color:#fff">
-      <div class="ct" style="color:var(--gold-lit)">Campina Grande · a expansão</div>
-      <div style="font-family:var(--serif);font-size:46px;line-height:1">419 mil</div><p style="color:#aeb8cf;font-size:12px;margin:4px 0 12px">habitantes (IBGE, Censo 2022)</p>
-      <p style="color:#dfe5f1;font-size:13.5px;line-height:1.5">Polo de tecnologia, universidades e indústria, onde fica o Parque Tecnológico. Papel: <b style="color:#fff">chegar com convite</b>, usando parcerias locais para não começar fria.</p>
-      <div class="mini" style="border-color:rgba(255,255,255,.14);color:#dfe5f1"><b style="color:var(--gold-lit)">Por onde entrar</b>Parque Tecnológico, onde a Paloma já é mentora, associações comerciais, universidades e empresários anfitriões.</div>
-    </div>
-    <div class="card">
-      <div class="ct">O empresário que queremos</div>
-      <ul class="chk">
-        <li><b>Dono ou sócio</b> de empresa que já dá lucro, 30 a 60 anos.</li>
-        <li><b>Quer crescer</b> sem colocar todo o lucro de volta e sem centralizar tudo.</li>
-        <li><b>Setores com mais aderência:</b> clínicas e saúde, franquias e varejo, construção, tecnologia, serviços.</li>
-        <li><b>Multiplicadores:</b> contadores, consultores, gestores de associações, que indicam clientes.</li>
-      </ul>
+    <div class="cities">
+      <div class="city rv"><div class="k">João Pessoa · a sede</div><div class="v"><span class="count" data-to="834">0</span> mil</div><div class="s">habitantes · IBGE, Censo 2022</div><p>Onde a Paloma já tem nome e onde acontecem os eventos grandes. Papel: <b>aprofundar</b>, virar referência indiscutível e lotar edições maiores.</p><div class="entry"><b>Por onde entrar</b>Confrarias mensais, imprensa da capital, núcleos empresariais e ex-participantes.</div></div>
+      <div class="city rv d1"><div class="k">Campina Grande · a expansão</div><div class="v"><span class="count" data-to="419">0</span> mil</div><div class="s">habitantes · IBGE, Censo 2022</div><p>Polo de tecnologia, universidades e indústria. Papel: <b>chegar com convite</b>, usando parcerias locais para não começar do zero.</p><div class="entry"><b>Por onde entrar</b>Parque Tecnológico, onde a Paloma já é mentora, associações comerciais e universidades.</div></div>
+      <div class="persona rv d2"><span class="eyebrow">O empresário ideal</span><h3 style="margin-top:20px">Quem queremos alcançar</h3><ul class="list">
+        <li><b>Dono ou sócio</b> de empresa que já dá lucro, de 30 a 60 anos.</li>
+        <li><b>Quer crescer</b> sem reinvestir todo o lucro e sem centralizar tudo.</li>
+        <li><b>Setores:</b> saúde e clínicas, franquias, varejo, construção, tecnologia e serviços.</li>
+        <li><b>Multiplicadores:</b> contadores, consultores e gestores de associações.</li>
+      </ul></div>
     </div>
   </div>
-  <div class="band" style="margin-top:14px"><span class="k">Regra</span><p>Falamos com <i>poucos e certos</i>. Mil empresários que lembram da Paloma valem mais que cem mil seguidores aleatórios.</p></div>
-</section></div>
+</section>
 
-<!-- 07 OS 3 MOTORES -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">06 · Como funciona</span><span class="pg">07</span></div>
-  <h2 class="t">Três motores que trabalham juntos, e o evento como <i>ponto alto</i>.</h2>
-  <p class="lede">Cada motor sozinho não resolve. Conteúdo sem tráfego fica restrito a quem já segue. Tráfego sem conteúdo vira anúncio chato. E nada disso adianta sem alguém para transformar interesse em presença no evento.</p>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1.05fr;gap:12px;margin-top:20px;flex:1;min-height:0">
-    <div class="card" style="border-top:3px solid var(--gold)"><div class="ct">Motor 1</div><h3>Conteúdo</h3><p style="margin-bottom:10px">O perfil da Paloma ensinando equity sem juridiquês, mostrando bastidores e reunindo empresários.</p><p><b style="color:var(--ink)">Gera:</b> confiança e lembrança.</p><div class="mini"><b>Ritmo</b>4 a 5 posts por semana, stories diários e 1 entrevista semanal.</div></div>
-    <div class="card" style="border-top:3px solid var(--gold)"><div class="ct">Motor 2</div><h3>Tráfego pago</h3><p style="margin-bottom:10px">Leva os melhores conteúdos até empresários de João Pessoa e Campina Grande que ainda não seguem.</p><p><b style="color:var(--ink)">Gera:</b> alcance certo e frequência.</p><div class="mini"><b>Ritmo</b>Sempre ligado, com reforço nos 45 dias antes de cada evento.</div></div>
-    <div class="card" style="border-top:3px solid var(--gold)"><div class="ct">Motor 3</div><h3>Relacionamento</h3><p style="margin-bottom:10px">Formulário, grupo de WhatsApp e um time comercial que conversa com cada empresário qualificado.</p><p><b style="color:var(--ink)">Gera:</b> lista própria e vendas antecipadas.</p><div class="mini"><b>Ritmo</b>Resposta em até 24h para todo empresário qualificado.</div></div>
-    <div class="card" style="background:var(--deep);border-color:var(--deep)"><div class="ct" style="color:var(--gold-lit)">O ponto alto</div><h3 style="color:#fff">Eventos</h3><p style="color:#aeb8cf;margin-bottom:10px">Encontros menores todo mês e duas imersões grandes por ano. Cada evento gera conteúdo e prova para o próximo.</p><p style="color:#fff"><b>Gera:</b> autoridade visível e receita.</p><div class="mini" style="border-color:rgba(255,255,255,.14);color:#dfe5f1"><b style="color:var(--gold-lit)">Ritmo</b>1 Confraria por mês e 2 imersões por ano.</div></div>
+<!-- 06 MOTORES -->
+<section class="pad cream">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">06 · Como funciona</span><h2 class="h-lg split">Três motores juntos, e o evento como <em>ponto alto</em>.</h2></div>
+      <p class="lead rv d2">Conteúdo sem tráfego fica restrito a quem já segue. Tráfego sem conteúdo vira anúncio chato. E nada disso adianta sem alguém para transformar interesse em presença no evento.</p>
+    </div>
+    <div class="engines">
+      <div class="engine rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H8l-4 4z"/><path d="M8 9h8M8 12h5"/></svg></div><div class="k">Motor 1</div><h3>Conteúdo</h3><p>O perfil da Paloma ensinando equity sem juridiquês, mostrando bastidores e reunindo empresários.</p><div class="gen"><b>Gera</b> confiança e lembrança</div></div>
+      <div class="engine rv d1"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".6" fill="currentColor"/></svg></div><div class="k">Motor 2</div><h3>Tráfego pago</h3><p>Leva os melhores conteúdos até empresários de João Pessoa e Campina Grande que ainda não seguem.</p><div class="gen"><b>Gera</b> alcance certo e frequência</div></div>
+      <div class="engine rv d2"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 19c.8-3.3 3.2-5 6-5s5.2 1.7 6 5"/><path d="M16 5.5a3 3 0 0 1 0 5.6M18 14.3c1.5.7 2.6 2.2 3 4.7"/></svg></div><div class="k">Motor 3</div><h3>Relacionamento</h3><p>Formulário, grupo de WhatsApp e um time comercial que conversa com cada empresário qualificado.</p><div class="gen"><b>Gera</b> lista própria e vendas antecipadas</div></div>
+      <div class="engine hl rv d3"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.5 5.3 5.8.7-4.3 4 1.1 5.7L12 16l-5.1 2.7L8 13 3.7 9l5.8-.7z"/></svg></div><div class="k" style="color:var(--gold)">O ponto alto</div><h3>Eventos</h3><p>Uma Confraria por mês e duas imersões grandes por ano. Cada evento gera conteúdo e prova para o próximo.</p><div class="gen"><b>Gera</b> autoridade visível e receita</div></div>
+    </div>
+    <div class="cycle rv">Conteúdo atrai <span class="a">→</span> tráfego multiplica <span class="a">→</span> relacionamento converte <span class="a">→</span> evento prova <span class="a">→</span> <em>a prova vira conteúdo</em></div>
   </div>
-  <div class="band" style="margin-top:14px"><span class="k">O ciclo</span><p>Conteúdo atrai → tráfego multiplica → relacionamento converte → evento prova → <i>a prova vira conteúdo</i>.</p></div>
-</section></div>
+</section>
 
-<!-- 08 ROADMAP -->
-<div class="frame"><section class="slide dark">
-  <div class="s-head"><span class="tag">07 · O roadmap</span><span class="pg">08</span></div>
-  <h2 class="t">Doze meses em <i>quatro fases</i>, cada uma com um objetivo claro.</h2>
-  <p class="lede" style="margin-bottom:26px">Uma fase prepara a próxima. Não pulamos etapas: só faz sentido levar a Paloma para Campina Grande depois que o perfil dela ensina, e só faz sentido uma imersão maior depois de existir uma lista aquecida.</p>
-  <div class="tl">
-    <div class="tl-i"><div class="bar"></div><div class="m">Meses 1 a 3 · nov a jan</div><h3>Provar</h3><p>Usar o evento de 03/11 como fábrica de conteúdo, reposicionar o perfil e começar a lista própria.</p><div class="ev"><b>Eventos:</b> Imersão 03/11 + 2 Confrarias Equity em JP</div><div class="out"><div><div class="v">10 mil</div><div class="l">seguidores</div></div><div><div class="v">600</div><div class="l">na lista</div></div></div></div>
-    <div class="tl-i"><div class="bar"></div><div class="m">Meses 4 a 6 · fev a abr</div><h3>Expandir</h3><p>Chegar a Campina Grande com parceiros, entrar na imprensa e nos palcos dos outros.</p><div class="ev"><b>Eventos:</b> 1ª Confraria em Campina Grande + Confrarias mensais</div><div class="out"><div><div class="v">15 mil</div><div class="l">seguidores</div></div><div><div class="v">1.500</div><div class="l">na lista</div></div></div></div>
-    <div class="tl-i"><div class="bar"></div><div class="m">Meses 7 a 9 · mai a jul</div><h3>Antecipar</h3><p>Vender a próxima grande imersão antes de abrir ao público, pela lista e pelo grupo.</p><div class="ev"><b>Eventos:</b> Imersão de meio de ano + pré-venda da grande edição</div><div class="out"><div><div class="v">20 mil</div><div class="l">seguidores</div></div><div><div class="v">3.000</div><div class="l">na lista</div></div></div></div>
-    <div class="tl-i"><div class="bar"></div><div class="m">Meses 10 a 12 · ago a out</div><h3>Consolidar</h3><p>Grande edição anual, comunidade com recorrência e calendário do ano 2 vendido.</p><div class="ev"><b>Eventos:</b> Expansão Sólida 3ª edição, maior e em 2 cidades</div><div class="out"><div><div class="v">25 mil</div><div class="l">seguidores</div></div><div><div class="v">5.000</div><div class="l">na lista</div></div></div></div>
-  </div>
-  <div class="band" style="margin-top:auto"><span class="k">Ao fim do ano</span><p>Uma lista própria de <i>5 mil empresários</i>, um calendário anual de eventos e a Paloma reconhecida nas duas maiores cidades da Paraíba.</p></div>
-  <div class="foot"><span>Paloma Rodrigues · Plano de Autoridade</span><span>Felipe Digital</span></div>
-</section></div>
-
-<!-- 09 FASE 1 -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">08 · Fase 1</span><span class="pg">09</span></div>
-  <div class="ph-top">
-    <div class="ph-badge"><div class="m">Meses 1 a 3</div><div class="n">Provar</div><div class="d">novembro a janeiro</div></div>
-    <div class="ph-goal"><div class="k">Objetivo</div><p>Fazer o empresário que já conhece a Paloma passar a vê-la como especialista, não só como anfitriã.</p></div>
-  </div>
-  <div class="ph-cols">
-    <div class="card"><div class="ct">O que fazemos</div><ul>
-      <li><b>Evento de 03/11 filmado inteiro:</b> fala da Paloma, depoimentos, bastidores e entrevistas curtas com participantes.</li>
-      <li><b>Perfil reposicionado:</b> nova bio, destaques e 3 posts fixados que explicam quem ela é.</li>
-      <li><b>Série “Equity sem juridiquês”:</b> vídeos curtos respondendo dúvidas reais de empresários.</li>
-      <li><b>Confraria Equity mensal:</b> jantar para 20 a 30 empresários, com convite.</li>
-    </ul></div>
-    <div class="card"><div class="ct">Tráfego e relacionamento</div><ul>
-      <li>Distribuir os melhores vídeos do evento para empresários de JP.</li>
-      <li>Abrir a <b>lista de interesse</b> da próxima edição no próprio dia 03/11.</li>
-      <li>Criar o grupo de WhatsApp <b>Círculo Equity</b> com quem participou.</li>
-      <li>Começar o LinkedIn da Paloma, onde o empresário B2B lê.</li>
-    </ul></div>
-    <div class="card" style="padding:0;display:flex;flex-direction:column">
-      <div class="photo" style="flex:1;background-image:url(img/encontro-6.jpg);background-position:center 25%"></div>
-      <p style="padding:10px 14px;font-size:12px;line-height:1.4;color:var(--ink-2)">O evento de 03/11 rende conteúdo para <b style="color:var(--ink)">90 dias</b> se for registrado com esse objetivo.</p>
+<!-- 07 ROADMAP -->
+<section class="pad dark" id="roadmap">
+  <div class="wrap road">
+    <div class="road-l">
+      <span class="eyebrow rv">07 · O roadmap</span>
+      <h2 class="h-lg split" style="margin-top:26px">Doze meses em <em>quatro fases</em>.</h2>
+      <p class="lead rv d2">Uma fase prepara a próxima. Só faz sentido levar a Paloma para Campina Grande depois que o perfil dela ensina, e só faz sentido uma imersão maior depois de existir uma lista aquecida.</p>
+      <div class="road-dots" id="roadDots">
+        <a href="#f1"><span class="d"></span><b>Provar</b><small>Meses 1–3</small></a>
+        <a href="#f2"><span class="d"></span><b>Expandir</b><small>Meses 4–6</small></a>
+        <a href="#f3"><span class="d"></span><b>Antecipar</b><small>Meses 7–9</small></a>
+        <a href="#f4"><span class="d"></span><b>Consolidar</b><small>Meses 10–12</small></a>
+      </div>
+    </div>
+    <div class="road-r">
+      <article class="phase" id="f1">
+        <div class="m rv">Meses 1 a 3 · novembro a janeiro</div>
+        <h3 class="rv">Provar</h3>
+        <p class="goal rv">Fazer quem já conhece a Paloma passar a vê-la como especialista, não só como anfitriã.</p>
+        <div class="img img-rv"><div class="bg" style="background-image:url(img/encontro-6.jpg)" role="img" aria-label="Paloma conduzindo o último encontro"></div></div>
+        <div class="cols">
+          <div class="rv"><h4>O que fazemos</h4><ul class="list">
+            <li><b>Evento de 03/11 filmado inteiro:</b> fala, depoimentos e bastidores.</li>
+            <li><b>Perfil reposicionado:</b> nova bio, destaques e 3 posts fixados.</li>
+            <li><b>Série “Equity sem juridiquês”</b> respondendo dúvidas reais.</li>
+            <li><b>Confraria Equity mensal</b> para 20 a 30 empresários.</li></ul></div>
+          <div class="rv d2"><h4>Tráfego e relacionamento</h4><ul class="list">
+            <li>Distribuir os melhores vídeos do evento para empresários de JP.</li>
+            <li>Abrir a <b>lista de interesse</b> da próxima edição no próprio 03/11.</li>
+            <li>Criar o grupo <b>Círculo Equity</b> com quem participou.</li>
+            <li>Começar o <b>LinkedIn</b>, onde o empresário B2B lê.</li></ul></div>
+        </div>
+        <div class="ev rv"><b>Eventos</b> Imersão 03/11 + 2 Confrarias em João Pessoa</div>
+        <div class="goals rv"><div><div class="v">10 mil</div><p>seguidores</p></div><div><div class="v">600</div><p>empresários na lista</p></div><div><div class="v">30+</div><p>depoimentos gravados</p></div><div><div class="v">2</div><p>Confrarias realizadas</p></div></div>
+      </article>
+      <article class="phase" id="f2">
+        <div class="m rv">Meses 4 a 6 · fevereiro a abril</div>
+        <h3 class="rv">Expandir</h3>
+        <p class="goal rv">Levar o nome da Paloma para Campina Grande e para fora do próprio perfil: imprensa, podcasts e palcos de outros.</p>
+        <div class="img img-rv"><div class="bg" style="background-image:url(img/ig-reuniao.jpg)" role="img" aria-label="Paloma em reunião com empresários"></div></div>
+        <div class="cols">
+          <div class="rv"><h4>O que fazemos</h4><ul class="list">
+            <li><b>Série “Mesa de Equity”:</b> entrevistas com empresários da PB, publicadas em parceria.</li>
+            <li><b>1ª Confraria em Campina Grande</b> com um parceiro local.</li>
+            <li><b>Assessoria de imprensa</b> em jornais, rádios e portais.</li>
+            <li><b>Palestras</b> em associações e no Parque Tecnológico.</li></ul></div>
+          <div class="rv d2"><h4>Tráfego e relacionamento</h4><ul class="list">
+            <li>Campanhas em <b>Campina Grande</b> semanas antes da Confraria.</li>
+            <li>Lançar o <b>Diagnóstico de Expansão</b>, questionário que capta e qualifica.</li>
+            <li>Primeiro contato com os <b>100 empresários</b> mais estratégicos.</li></ul></div>
+        </div>
+        <div class="ev rv"><b>Eventos</b> 1ª Confraria em Campina Grande + Confrarias mensais</div>
+        <div class="goals rv"><div><div class="v">15 mil</div><p>seguidores</p></div><div><div class="v">1.500</div><p>empresários na lista</p></div><div><div class="v">4</div><p>aparições na imprensa</p></div><div><div class="v">3</div><p>palcos de terceiros</p></div></div>
+      </article>
+      <article class="phase" id="f3">
+        <div class="m rv">Meses 7 a 9 · maio a julho</div>
+        <h3 class="rv">Antecipar</h3>
+        <p class="goal rv">Provar que a autoridade é dela: vender a maior parte da próxima grande edição antes de abrir ao público.</p>
+        <div class="img img-rv"><div class="bg" style="background-image:url(img/ig-premio.jpg);background-position:center 20%" role="img" aria-label="Paloma em palco com microfone"></div></div>
+        <div class="cols">
+          <div class="rv"><h4>O que fazemos</h4><ul class="list">
+            <li><b>Imersão de meio de ano</b> com a Paloma como atração principal.</li>
+            <li><b>Anúncio da grande edição</b> no palco dessa imersão.</li>
+            <li><b>E-book “O Código do Equity”</b> com os erros que travam a expansão.</li>
+            <li>Depoimentos de quem <b>aplicou</b> o que aprendeu.</li></ul></div>
+          <div class="rv d2"><h4>Tráfego e relacionamento</h4><ul class="list">
+            <li><b>Lote fundador</b> só para lista e grupo, por tempo limitado.</li>
+            <li><b>Mesas corporativas</b> para sócios e liderança.</li>
+            <li>Programa de <b>embaixadores</b> com ex-participantes.</li>
+            <li>Abertura das <b>cotas de patrocínio</b>.</li></ul></div>
+        </div>
+        <div class="ev rv"><b>Eventos</b> Imersão de meio de ano + pré-venda da grande edição</div>
+        <div class="goals rv"><div><div class="v">20 mil</div><p>seguidores</p></div><div><div class="v">3.000</div><p>empresários na lista</p></div><div><div class="v">50%</div><p>vendido antes da abertura</p></div><div><div class="v">2+</div><p>patrocinadores</p></div></div>
+      </article>
+      <article class="phase" id="f4">
+        <div class="m rv">Meses 10 a 12 · agosto a outubro</div>
+        <h3 class="rv">Consolidar</h3>
+        <p class="goal rv">Transformar autoridade em negócio previsível: evento anual lotado, comunidade recorrente e ano 2 vendido.</p>
+        <div class="img img-rv"><div class="bg" style="background-image:url(img/participantes.jpg);background-position:center 35%" role="img" aria-label="Participantes aplaudindo no encontro"></div></div>
+        <div class="cols">
+          <div class="rv"><h4>O que fazemos</h4><ul class="list">
+            <li><b>Expansão Sólida, 3ª edição</b>, maior e também em Campina Grande.</li>
+            <li><b>Clube Equity:</b> comunidade fechada com encontros mensais.</li>
+            <li><b>Calendário do ano 2</b> anunciado no palco.</li>
+            <li>Retrospectiva pública do ano.</li></ul></div>
+          <div class="rv d2"><h4>Tráfego e relacionamento</h4><ul class="list">
+            <li>Venda aberta com a prova do ano inteiro.</li>
+            <li>Oferta do Clube Equity para quem participou.</li>
+            <li>Renovação de patrocinadores.</li>
+            <li>Pré-venda da 1ª edição de 2028 no próprio evento.</li></ul></div>
+        </div>
+        <div class="ev rv"><b>Eventos</b> Expansão Sólida 3ª edição, maior e em duas cidades</div>
+        <div class="goals rv"><div><div class="v">25 mil</div><p>seguidores</p></div><div><div class="v">5.000</div><p>empresários na lista</p></div><div><div class="v">300</div><p>pessoas na grande edição</p></div><div><div class="v">40</div><p>membros no Clube</p></div></div>
+      </article>
     </div>
   </div>
-  <div class="metas">
-    <div class="meta-i"><div class="v">10 mil</div><div class="l">seguidores no perfil</div></div>
-    <div class="meta-i"><div class="v">600</div><div class="l">empresários na lista própria</div></div>
-    <div class="meta-i"><div class="v">30+</div><div class="l">depoimentos gravados</div></div>
-    <div class="meta-i"><div class="v">2</div><div class="l">Confrarias realizadas</div></div>
-  </div>
-</section></div>
+</section>
 
-<!-- 10 FASE 2 -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">09 · Fase 2</span><span class="pg">10</span></div>
-  <div class="ph-top">
-    <div class="ph-badge"><div class="m">Meses 4 a 6</div><div class="n">Expandir</div><div class="d">fevereiro a abril</div></div>
-    <div class="ph-goal"><div class="k">Objetivo</div><p>Levar o nome da Paloma para Campina Grande e para fora do próprio perfil: imprensa, podcasts e palcos de outros.</p></div>
-  </div>
-  <div class="ph-cols">
-    <div class="card"><div class="ct">O que fazemos</div><ul>
-      <li><b>Série de entrevistas “Mesa de Equity”:</b> conversas com empresários da Paraíba, publicadas em parceria no perfil dos dois.</li>
-      <li><b>1ª Confraria em Campina Grande</b>, feita com um parceiro local que já tem a confiança do público.</li>
-      <li><b>Assessoria de imprensa:</b> pautas sobre crescimento de empresas da PB em jornais, rádios e portais.</li>
-      <li><b>Palestras em eventos de terceiros:</b> associações comerciais, núcleos empresariais e o Parque Tecnológico.</li>
-    </ul></div>
-    <div class="card"><div class="ct">Tráfego e relacionamento</div><ul>
-      <li>Abrir as campanhas para <b>Campina Grande</b> semanas antes da Confraria.</li>
-      <li>Lançar o <b>Diagnóstico de Expansão</b>: questionário curto que capta e qualifica o empresário.</li>
-      <li>Primeiro contato comercial com os 100 empresários mais estratégicos das duas cidades.</li>
-    </ul></div>
-    <div class="card" style="padding:0;display:flex;flex-direction:column">
-      <div class="photo" style="flex:1;background-image:url(img/ig-reuniao.jpg);background-position:center 30%"></div>
-      <p style="padding:10px 14px;font-size:12px;line-height:1.4;color:var(--ink-2)">Cada entrevista é uma <b style="color:var(--ink)">autoridade emprestada</b> que vira relacionamento próprio.</p>
+<!-- 08 CONTEÚDO -->
+<section class="pad" id="conteudo">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">08 · Conteúdo do perfil</span><h2 class="h-lg split">Cinco assuntos repetidos <em>até virar referência</em>.</h2></div>
+      <p class="lead rv d2">Cada post precisa caber em um desses pilares. Antes de publicar, uma pergunta: um empresário aprende algo ou confia mais na Paloma depois disso? Se não, não sai.</p>
+    </div>
+    <div class="mix">
+      <div class="mix-row rv"><div class="pc">35%</div><h3>Equity sem juridiquês<small>Reels curto · carrossel</small></h3><p>Ensinar de forma simples: sócio-operador, vesting, sociedade com funcionário, entrada de investidor.<span class="bar" style="--p:.35;display:block"><i></i></span></p><q>Seu melhor gerente pode virar sócio sem levar metade.</q></div>
+      <div class="mix-row rv"><div class="pc">20%</div><h3>Erros que custam caro<small>Reels narrado · carrossel</small></h3><p>Casos reais, sem nomes, de sociedades que travaram, brigaram ou perderam valor.<span class="bar" style="--p:.2;display:block"><i></i></span></p><q>A sociedade de boca que custou uma clínica inteira.</q></div>
+      <div class="mix-row rv"><div class="pc">20%</div><h3>Quem constrói a Paraíba<small>Entrevista em collab · live</small></h3><p>Entrevistas e posts em parceria com empresários locais. É conteúdo e é relacionamento.<span class="bar" style="--p:.2;display:block"><i></i></span></p><q>Como ele saiu de 1 para 6 unidades sem dívida.</q></div>
+      <div class="mix-row rv"><div class="pc">15%</div><h3>Palco e bastidores<small>Corte de palco · stories</small></h3><p>Eventos, Confrarias e reuniões. Prova de que ela está onde as decisões acontecem.<span class="bar" style="--p:.15;display:block"><i></i></span></p><q>O que 150 empresários me perguntaram no intervalo.</q></div>
+      <div class="mix-row rv"><div class="pc">10%</div><h3>Quem é a Paloma<small>Foto e texto · stories</small></h3><p>História, valores, rotina e opinião. Gente confia em gente, não em logotipo.<span class="bar" style="--p:.1;display:block"><i></i></span></p><q>Por que troquei o Direito tradicional pelo de expansão.</q></div>
     </div>
   </div>
-  <div class="metas">
-    <div class="meta-i"><div class="v">15 mil</div><div class="l">seguidores no perfil</div></div>
-    <div class="meta-i"><div class="v">1.500</div><div class="l">empresários na lista</div></div>
-    <div class="meta-i"><div class="v">4</div><div class="l">aparições na imprensa local</div></div>
-    <div class="meta-i"><div class="v">3</div><div class="l">palcos de terceiros</div></div>
-  </div>
-</section></div>
+</section>
 
-<!-- 11 FASE 3 -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">10 · Fase 3</span><span class="pg">11</span></div>
-  <div class="ph-top">
-    <div class="ph-badge"><div class="m">Meses 7 a 9</div><div class="n">Antecipar</div><div class="d">maio a julho</div></div>
-    <div class="ph-goal"><div class="k">Objetivo</div><p>Provar que a autoridade é dela: vender a maior parte da próxima grande edição antes de abrir para o público geral.</p></div>
-  </div>
-  <div class="ph-cols">
-    <div class="card"><div class="ct">O que fazemos</div><ul>
-      <li><b>Imersão de meio de ano</b>, mais enxuta, com a Paloma como atração principal.</li>
-      <li><b>Anúncio da grande edição de outubro</b> já no palco da imersão de meio de ano.</li>
-      <li><b>Material próprio:</b> e-book “O Código do Equity”, com os erros que travam a expansão.</li>
-      <li>Depoimentos de empresários que <b>aplicaram</b> o que aprenderam nos encontros.</li>
-    </ul></div>
-    <div class="card"><div class="ct">Tráfego e relacionamento</div><ul>
-      <li><b>Lote fundador</b> só para lista e grupo, por tempo limitado.</li>
-      <li>Venda de <b>mesas corporativas</b> para sócios e equipes de liderança.</li>
-      <li>Programa de <b>embaixadores</b>: ex-participantes que indicam e ganham benefícios.</li>
-      <li>Abertura das cotas de patrocínio para a grande edição.</li>
-    </ul></div>
-    <div class="card" style="padding:0;display:flex;flex-direction:column">
-      <div class="photo" style="flex:1;background-image:url(img/ig-premio.jpg);background-position:center 25%"></div>
-      <p style="padding:10px 14px;font-size:12px;line-height:1.4;color:var(--ink-2)">Quando a Paloma é a atração principal e o evento lota, a <b style="color:var(--ink)">autoridade está comprovada</b>.</p>
+<!-- 09 NA PRÁTICA -->
+<section class="pad cream" style="padding-top:120px">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">09 · Na prática</span><h2 class="h-lg split">Como isso aparece no feed, <em>com o que ela já tem</em>.</h2></div>
+      <p class="lead rv d2">Os ingredientes já existem: fotos de palco, bastidores e eventos. O que muda é a mensagem que cada um carrega.</p>
+    </div>
+    <div class="posts">
+      <div class="post rv"><div class="im"><div class="bg" style="background-image:url(img/ig-fala.jpg)"></div><span class="fmt">Reels · 45s</span><div class="cap">Seu sócio saiu. <em>E levou metade</em> do que você construiu.</div></div><div class="why"><b>Erros que custam caro.</b> Gancho de dor, explicação simples e convite para a lista.</div></div>
+      <div class="post rv d1"><div class="im"><div class="bg" style="background-image:url(img/ig-palco.jpg);background-position:center 35%"></div><span class="fmt">Corte de palestra</span><div class="cap">Crescer não é <em>vender mais</em>. É estruturar melhor.</div></div><div class="why"><b>Palco.</b> Trecho da fala de 03/11: a Paloma como especialista, não anfitriã.</div></div>
+      <div class="post rv d2"><div class="im"><div class="bg" style="background-image:url(img/ig-reuniao.jpg)"></div><span class="fmt">Carrossel</span><div class="cap">4 formas de crescer <em>sem colocar</em> mais dinheiro seu.</div></div><div class="why"><b>Equity sem juridiquês.</b> É salvo e compartilhado, e funciona bem em anúncio.</div></div>
+      <div class="post rv d3"><div class="im"><div class="bg" style="background-image:url(img/encontro-2.jpg)"></div><span class="fmt">Collab</span><div class="cap">“Como abri a 6ª unidade <em>sem dívida</em>.”</div></div><div class="why"><b>Quem constrói a PB.</b> Sai no perfil dos dois e alcança o público do convidado.</div></div>
     </div>
   </div>
-  <div class="metas">
-    <div class="meta-i"><div class="v">20 mil</div><div class="l">seguidores no perfil</div></div>
-    <div class="meta-i"><div class="v">3.000</div><div class="l">empresários na lista</div></div>
-    <div class="meta-i"><div class="v">50%</div><div class="l">da grande edição vendida antes da abertura</div></div>
-    <div class="meta-i"><div class="v">2+</div><div class="l">patrocinadores fechados</div></div>
-  </div>
-</section></div>
+</section>
 
-<!-- 12 FASE 4 -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">11 · Fase 4</span><span class="pg">12</span></div>
-  <div class="ph-top">
-    <div class="ph-badge"><div class="m">Meses 10 a 12</div><div class="n">Consolidar</div><div class="d">agosto a outubro</div></div>
-    <div class="ph-goal"><div class="k">Objetivo</div><p>Transformar a autoridade em um negócio previsível: evento anual lotado, comunidade recorrente e ano 2 vendido.</p></div>
-  </div>
-  <div class="ph-cols">
-    <div class="card"><div class="ct">O que fazemos</div><ul>
-      <li><b>Expansão Sólida, 3ª edição:</b> maior, com dia extra ou edição também em Campina Grande.</li>
-      <li><b>Clube Equity:</b> comunidade fechada de empresários com encontros mensais e acesso à Paloma.</li>
-      <li><b>Calendário do ano 2</b> divulgado no palco, com datas e locais já fechados.</li>
-      <li>Retrospectiva pública: números, casos e cenas do ano.</li>
-    </ul></div>
-    <div class="card"><div class="ct">Tráfego e relacionamento</div><ul>
-      <li>Venda aberta da grande edição para o público frio, com a prova do ano inteiro.</li>
-      <li>Oferta do Clube Equity para quem participou dos eventos.</li>
-      <li>Renovação de patrocinadores para o ano 2.</li>
-      <li>Pré-venda da 1ª edição de 2028 no próprio evento.</li>
-    </ul></div>
-    <div class="card" style="padding:0;display:flex;flex-direction:column">
-      <div class="photo" style="flex:1;background-image:url(img/participantes.jpg);background-position:center 30%"></div>
-      <p style="padding:10px 14px;font-size:12px;line-height:1.4;color:var(--ink-2)">No mês 12, o empresário de JP e CG <b style="color:var(--ink)">procura a Paloma</b>, e não o contrário.</p>
+<!-- 10 RITMO -->
+<section class="pad">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">10 · Ritmo</span><h2 class="h-lg split">Uma semana-padrão de <em>constância</em>.</h2></div>
+      <p class="lead rv d2">Constância vale mais que perfeição. Com um dia de gravação a cada 15 dias, a Paloma produz material para duas semanas inteiras.</p>
     </div>
-  </div>
-  <div class="metas">
-    <div class="meta-i"><div class="v">25 mil</div><div class="l">seguidores no perfil</div></div>
-    <div class="meta-i"><div class="v">5.000</div><div class="l">empresários na lista</div></div>
-    <div class="meta-i"><div class="v">300</div><div class="l">pessoas na grande edição</div></div>
-    <div class="meta-i"><div class="v">40</div><div class="l">membros no Clube Equity</div></div>
-  </div>
-</section></div>
-
-<!-- 13 PILARES -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">12 · Conteúdo do perfil</span><span class="pg">13</span></div>
-  <h2 class="t">Cinco assuntos que a Paloma repete <i>até virar referência</i>.</h2>
-  <p class="lede">Cada post precisa caber em um desses cinco pilares. A porcentagem mostra o peso de cada um no mês.</p>
-  <div class="g5" style="margin-top:18px;flex:1;min-height:0">
-    <div class="card" style="border-top:4px solid var(--deep)"><div class="ct">35%</div><h3>Equity sem juridiquês</h3><p>Ensinar de forma simples: sócio-operador, vesting, sociedade com funcionário, entrada de investidor.</p><p class="src" style="margin-top:8px">“Seu melhor gerente pode virar sócio sem te dar metade da empresa.”</p><div class="mini"><b>Formatos</b>Reels curto · carrossel</div></div>
-    <div class="card" style="border-top:4px solid var(--gold)"><div class="ct">20%</div><h3>Erros que custam caro</h3><p>Casos reais, sem nomes, de sociedades que travaram, brigaram ou perderam valor.</p><p class="src" style="margin-top:8px">“A sociedade de boca que custou uma clínica inteira.”</p><div class="mini"><b>Formatos</b>Reels narrado · carrossel</div></div>
-    <div class="card" style="border-top:4px solid var(--blue)"><div class="ct">20%</div><h3>Quem constrói a Paraíba</h3><p>Entrevistas e posts em parceria com empresários locais. É conteúdo e é relacionamento.</p><p class="src" style="margin-top:8px">“Como ele saiu de 1 para 6 unidades sem dívida.”</p><div class="mini"><b>Formatos</b>Entrevista em collab · live</div></div>
-    <div class="card" style="border-top:4px solid var(--gold-lit)"><div class="ct">15%</div><h3>Palco e bastidores</h3><p>Eventos, Confrarias, reuniões, viagens. Prova de que ela está onde as decisões acontecem.</p><p class="src" style="margin-top:8px">“O que 150 empresários me perguntaram no intervalo.”</p><div class="mini"><b>Formatos</b>Corte de palco · stories</div></div>
-    <div class="card" style="border-top:4px solid var(--ink-3)"><div class="ct">10%</div><h3>Quem é a Paloma</h3><p>História, valores, rotina, opinião. Gente confia em gente, não em logotipo.</p><p class="src" style="margin-top:8px">“Por que eu larguei o Direito tradicional.”</p><div class="mini"><b>Formatos</b>Foto + texto · stories</div></div>
-  </div>
-  <div class="band" style="margin-top:14px"><span class="k">Filtro</span><p>Antes de postar: <i>um empresário aprende algo ou confia mais na Paloma depois disso?</i> Se não, não sai.</p></div>
-</section></div>
-
-<!-- 14 MOCKUPS -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">13 · Na prática</span><span class="pg">14</span></div>
-  <h2 class="t" style="margin-bottom:14px">Como esses conteúdos aparecem no perfil, <i>usando o que ela já tem</i>.</h2>
-  <div class="posts">
-    <div class="post"><div class="img" style="background-image:url(img/ig-fala.jpg)"></div><span class="fmt">Reels · 45s</span><div class="cap">Seu sócio saiu. <i>E levou metade</i> do que você construiu.</div><div class="why"><b>Pilar:</b> Erros que custam caro. Gancho de dor, explicação simples, convite para a lista.</div></div>
-    <div class="post"><div class="img" style="background-image:url(img/ig-palco.jpg);background-position:center 35%"></div><span class="fmt">Corte de palestra</span><div class="cap">Crescer não é <i>vender mais</i>. É estruturar melhor.</div><div class="why"><b>Pilar:</b> Palco. Trecho da fala de 03/11, a Paloma como especialista, não anfitriã.</div></div>
-    <div class="post"><div class="img" style="background-image:url(img/ig-reuniao.jpg);background-position:center 25%"></div><span class="fmt">Carrossel</span><div class="cap">4 formas de crescer <i>sem colocar</i> mais dinheiro seu.</div><div class="why"><b>Pilar:</b> Equity sem juridiquês. Salva e compartilha, ótimo para anúncio.</div></div>
-    <div class="post"><div class="img" style="background-image:url(img/encontro-2.jpg);background-position:center 20%"></div><span class="fmt">Collab · entrevista</span><div class="cap">“Como eu abri a 6ª unidade <i>sem dívida</i>.”</div><div class="why"><b>Pilar:</b> Quem constrói a PB. Sai no perfil dos dois e alcança o público do convidado.</div></div>
-  </div>
-</section></div>
-
-<!-- 15 SEMANA -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">14 · Ritmo</span><span class="pg">15</span></div>
-  <h2 class="t">Uma semana-padrão: <i>4 a 5 posts</i>, stories todo dia, uma entrevista.</h2>
-  <p class="lede" style="margin-bottom:12px">A constância vale mais que a perfeição. Com um dia de gravação a cada 15 dias, a Paloma produz material para duas semanas inteiras.</p>
-  <div class="week">
-    <div class="day"><div class="d">Seg</div><div class="it">Reels educativo<small>Equity sem juridiquês</small></div><div class="it s">Stories: caixinha de perguntas</div></div>
-    <div class="day"><div class="d">Ter</div><div class="it v">LinkedIn: artigo curto<small>mesmo tema do reels</small></div><div class="it s">Stories: bastidor do escritório</div></div>
-    <div class="day"><div class="d">Qua</div><div class="it">Carrossel<small>Erros que custam caro</small></div><div class="it s">Stories: enquete com empresários</div></div>
-    <div class="day"><div class="d">Qui</div><div class="it">Entrevista em collab<small>Quem constrói a PB</small></div><div class="it s">Stories: chamada para a lista</div></div>
-    <div class="day"><div class="d">Sex</div><div class="it">Corte de palco<small>Palco e bastidores</small></div><div class="it s">Stories: resposta da caixinha</div></div>
-    <div class="day"><div class="d">Sáb</div><div class="it s">Stories: vida pessoal, leitura, rotina</div></div>
-    <div class="day"><div class="d">Dom</div><div class="it">Post pessoal<small>Quem é a Paloma (quinzenal)</small></div></div>
-  </div>
-  <p style="margin-top:12px;font-size:14px;color:var(--ink-2);line-height:1.5"><b style="color:var(--ink)">Produção:</b> 1 dia de gravação a cada 15 dias (8 a 10 vídeos) · stories falando direto para a câmera toda quinta · 1 live por mês com convidado, que depois vira cortes.</p>  <div class="ct" style="margin-top:14px">As 9 primeiras pautas, prontas para gravar</div>
-  <div class="pz">
-    <div><small>Equity</small>O que é equity, explicado em 60 segundos</div>
-    <div><small>Erros</small>A sociedade “de boca” e o dia em que ela acaba</div>
-    <div><small>Equity</small>Como dar participação ao gerente sem perder o controle</div>
-    <div><small>Erros</small>3 cláusulas que todo contrato de sócio precisa ter</div>
-    <div><small>Palco</small>O que aprendi reunindo 150 empresários em um dia</div>
-    <div><small>Equity</small>Crescer sem reinvestir todo o lucro: 4 caminhos</div>
-    <div><small>Quem constrói</small>Entrevista: da 1ª à 6ª unidade sem dívida</div>
-    <div><small>Erros</small>Por que empresa lucrativa não vale nada na hora de vender</div>
-    <div><small>Paloma</small>Por que troquei o Direito tradicional pelo Direito de expansão</div>
-  </div>
-</section></div>
-
-<!-- 16 AJUSTES PERFIL -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">15 · Arrumar a casa</span><span class="pg">16</span></div>
-  <h2 class="t">Antes de investir em anúncio, o perfil precisa <i>converter quem chega</i>.</h2>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:12px;flex:1;min-height:0">
-    <div class="card">
-      <div class="ct">Bio · hoje</div>
-      <p style="font-size:14px;color:var(--ink);background:#fff;border:1px solid var(--line);padding:10px 12px;margin-bottom:14px">Advogada Empresarial da Nova Economia · Estruturo empresas para expansão com eficiência de capital e construção de ecossistema com Equity</p>
-      <div class="ct">Bio · proposta</div>
-      <p style="font-size:14px;color:var(--ink);background:#fff;border:2px solid var(--gold);padding:10px 12px;line-height:1.5">Advogada societária · Mentora no Parque Tecnológico da PB<br>Ajudo empresários a crescer com sócios, sem perder o controle<br>+400 empresas · Anfitriã do Expansão Sólida<br>↓ Entre na lista da próxima edição</p>
-      <p class="src" style="margin-top:10px">Linguagem do empresário (“crescer com sócios”), prova em números e um único próximo passo.</p>
-      <div class="ct" style="margin-top:auto;padding-top:14px">Destaques propostos</div>
-      <div class="hl"><div><span>▸</span>Comece aqui</div><div><span>E</span>Equity</div><div><span>◆</span>Eventos</div><div><span>“</span>Depoimentos</div><div><span>▤</span>Imprensa</div><div><span>♢</span>Confraria</div></div>
+    <div class="week">
+      <div class="day rv"><div class="d">Seg</div><div class="it">Reels educativo<small>Equity sem juridiquês</small></div><div class="it s">Stories: caixinha de perguntas</div></div>
+      <div class="day rv d1"><div class="d">Ter</div><div class="it v">Artigo no LinkedIn<small>mesmo tema do reels</small></div><div class="it s">Stories: bastidor do escritório</div></div>
+      <div class="day rv d2"><div class="d">Qua</div><div class="it">Carrossel<small>Erros que custam caro</small></div><div class="it s">Stories: enquete</div></div>
+      <div class="day rv d3"><div class="d">Qui</div><div class="it">Entrevista em collab<small>Quem constrói a PB</small></div><div class="it s">Stories: chamada para a lista</div></div>
+      <div class="day rv d4"><div class="d">Sex</div><div class="it">Corte de palco<small>Palco e bastidores</small></div><div class="it s">Stories: respostas</div></div>
+      <div class="day rv d5"><div class="d">Sáb</div><div class="it s">Stories: rotina, leitura, vida pessoal</div></div>
+      <div class="day rv d5"><div class="d">Dom</div><div class="it">Post pessoal<small>quinzenal</small></div></div>
     </div>
-    <div class="card">
-      <div class="ct">O que mais muda</div>
-      <ul class="chk">
-        <li><b>3 posts fixados:</b> quem é a Paloma · o que é equity em 1 minuto · como foi o último evento.</li>
-        <li><b>Destaques reorganizados:</b> Comece aqui · Equity · Eventos · Depoimentos · Imprensa · Confraria.</li>
-        <li><b>Link único</b> que leva à lista de interesse, não a vários lugares.</li>
-        <li><b>Perfil próprio do evento</b> para a divulgação de lote, contagem e logística, liberando o perfil da Paloma para ensinar.</li>
-        <li><b>LinkedIn ativo</b> com o mesmo posicionamento.</li>
-        <li><b>Seguindo:</b> limpar de 2 mil para perfis relevantes do ecossistema local.</li>
-      </ul>
+    <div class="legend rv"><span><i></i>Feed</span><span><i style="background:var(--mist)"></i>Stories</span><span><i style="background:var(--navy)"></i>LinkedIn</span></div>
+    <div class="prod">
+      <div class="rv"><h4>Gravação quinzenal</h4><p>Um dia a cada 15 dias, com roteiro pronto. Rende de 8 a 10 vídeos por sessão.</p></div>
+      <div class="rv d1"><h4>Fala direta</h4><p>Toda quinta, um bloco de stories com a Paloma falando para a câmera, sem roteiro.</p></div>
+      <div class="rv d2"><h4>Live mensal</h4><p>Uma conversa ao vivo por mês com um convidado, que depois vira cortes.</p></div>
     </div>
-  </div>
-</section></div>
-
-<!-- 17 CAMPANHAS -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">16 · Tráfego pago</span><span class="pg">17</span></div>
-  <h2 class="t" style="margin-bottom:6px">Cinco campanhas, cada uma com <i>um trabalho</i> no plano.</h2>
-  <p class="lede" style="margin-bottom:14px">Anúncio aqui não é só “compre o ingresso”. A maior parte do investimento serve para a Paloma ser vista pelas pessoas certas, várias vezes.</p>
-  <div class="g5" style="flex:1;min-height:0">
-    <div class="camp"><div class="hd"><div class="n">Campanha 1</div><h3>Presença</h3></div><div class="bd"><p><b>O quê:</b> os melhores vídeos educativos da Paloma.</p><p><b>Para quem:</b> donos de empresa em JP e CG.</p><p><b>Para quê:</b> ser vista toda semana pelas mesmas pessoas.</p><div class="ex">“Seu melhor gerente pode virar sócio sem levar metade.”</div></div><div class="ft">Mede: alcance no público certo</div></div>
-    <div class="camp"><div class="hd"><div class="n">Campanha 2</div><h3>Lista Equity</h3></div><div class="bd"><p><b>O quê:</b> Diagnóstico de Expansão e e-book.</p><p><b>Para quem:</b> quem assistiu aos vídeos.</p><p><b>Para quê:</b> captar nome, WhatsApp, empresa e faturamento.</p><div class="ex">“Em 3 minutos, descubra o que trava a expansão da sua empresa.”</div></div><div class="ft">Mede: custo por empresário qualificado</div></div>
-    <div class="camp"><div class="hd"><div class="n">Campanha 3</div><h3>Convite</h3></div><div class="bd"><p><b>O quê:</b> anúncio do evento, lote e programação.</p><p><b>Para quem:</b> lista, seguidores e quem visitou a página.</p><p><b>Para quê:</b> vender ingressos.</p><div class="ex">“150 empresários. Um dia. 03/11, João Pessoa.”</div></div><div class="ft">Mede: custo por ingresso vendido</div></div>
-    <div class="camp"><div class="hd"><div class="n">Campanha 4</div><h3>Prova</h3></div><div class="bd"><p><b>O quê:</b> depoimentos e cenas dos eventos.</p><p><b>Para quem:</b> quem viu o convite e não comprou.</p><p><b>Para quê:</b> responder à dúvida “vale a pena?”.</p><div class="ex">“O que mudou na empresa dele depois da imersão.”</div></div><div class="ft">Mede: compras recuperadas</div></div>
-    <div class="camp"><div class="hd"><div class="n">Campanha 5</div><h3>Conversa</h3></div><div class="bd"><p><b>O quê:</b> anúncio que abre o WhatsApp.</p><p><b>Para quem:</b> empresários de maior porte e interessados em VIP ou mesa corporativa.</p><p><b>Para quê:</b> venda consultiva.</p><div class="ex">“Quer levar seus sócios? Fale com a nossa equipe.”</div></div><div class="ft">Mede: conversas que viram venda</div></div>
-  </div>
-</section></div>
-
-<!-- 18 VERBA POR FASE -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">17 · Onde vai o dinheiro</span><span class="pg">18</span></div>
-  <h2 class="t">O peso de cada campanha <i>muda conforme a fase</i>.</h2>
-  <p class="lede" style="margin-bottom:14px">No começo, o dinheiro vai para ser vista e captar. Perto dos eventos, desloca para converter. Assim, a venda nunca começa do zero.</p>
-  <table class="tb">
-    <tr><th style="width:24%">Campanha</th><th class="c">Fase 1 · Provar</th><th class="c">Fase 2 · Expandir</th><th class="c">Fase 3 · Antecipar</th><th class="c">Fase 4 · Consolidar</th></tr>
-    <tr><td>Presença</td><td class="c">50%</td><td class="c">45%</td><td class="c">25%</td><td class="c">20%</td></tr>
-    <tr><td>Lista Equity</td><td class="c">25%</td><td class="c">35%</td><td class="c">30%</td><td class="c">15%</td></tr>
-    <tr><td>Convite</td><td class="c">15%</td><td class="c">10%</td><td class="c">25%</td><td class="c">40%</td></tr>
-    <tr><td>Prova</td><td class="c">5%</td><td class="c">5%</td><td class="c">10%</td><td class="c">15%</td></tr>
-    <tr><td>Conversa</td><td class="c">5%</td><td class="c">5%</td><td class="c">10%</td><td class="c">10%</td></tr>
-    <tr class="hi"><td>Cidades</td><td class="c">JP</td><td class="c">JP + CG</td><td class="c">JP + CG</td><td class="c">JP + CG</td></tr>
-  </table>
-  <div class="g3" style="margin-top:auto">
-    <div class="card"><div class="ct">Regra 1</div><p>Só vira anúncio o conteúdo que já funcionou sem dinheiro no perfil.</p></div>
-    <div class="card"><div class="ct">Regra 2</div><p>Toda campanha de venda abre 30 a 45 dias antes do evento, nunca na última semana.</p></div>
-    <div class="card"><div class="ct">Regra 3</div><p>Revisão mensal: o que trouxe empresário qualificado ganha verba; o resto sai.</p></div>
-  </div>
-</section></div>
-
-<!-- 19 ESTEIRA DE ANTECIPAÇÃO -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">18 · Vender antes de abrir</span><span class="pg">19</span></div>
-  <h2 class="t">A esteira de antecipação: <i>quando abre ao público</i>, metade já foi.</h2>
-  <p class="lede" style="margin-bottom:12px">Evento de empresário não se vende em uma semana de anúncio: se vende em 90 dias de aquecimento, com cada etapa marcada no calendário.</p>
-  <div class="flow">
-    <div class="st"><span class="w">90 dias antes</span><h3>Formulário de interesse</h3><p>Anúncio do tema e da data. Quem quer saber primeiro deixa nome, WhatsApp, empresa e faturamento.</p></div>
-    <div class="st"><span class="w">75 dias antes</span><h3>Grupo Círculo Equity</h3><p>Quem preencheu entra no grupo. Conteúdo exclusivo, bastidores e revelação dos palestrantes ali primeiro.</p></div>
-    <div class="st gold"><span class="w">60 dias antes</span><h3>Lote fundador</h3><p>48 horas de venda só para o grupo, no menor preço do evento. Não é desconto: é o primeiro lote.</p></div>
-    <div class="st"><span class="w">45 dias antes</span><h3>Venda aberta</h3><p>Anúncios para o público geral com prova social do grupo: “X empresários já confirmados”.</p></div>
-    <div class="st"><span class="w">15 dias antes</span><h3>Último lote</h3><p>Preço mais alto, poucas vagas, contato pessoal com quem demonstrou interesse e não comprou.</p></div>
-  </div>
-  <div class="g3" style="margin-top:12px;margin-bottom:12px">
-    <div class="card" style="padding:12px 18px"><div class="ct">O preço sobe, não cai</div><p>Os lotes sobem com o tempo. Quem espera paga mais. Isso educa o público a comprar cedo nas próximas edições.</p></div>
-    <div class="card" style="padding:12px 18px"><div class="ct">O formulário qualifica</div><p>Faturamento e cidade separam quem recebe ligação do time comercial de quem recebe só a mensagem automática.</p></div>
-    <div class="card" style="padding:12px 18px"><div class="ct">O grupo tem regra</div><p>Grupo de avisos, não de conversa: 3 a 4 mensagens por semana, todas com valor. Grupo barulhento perde gente.</p></div>
-  </div>
-  <div class="math">
-    <div><div class="v">1.200</div><div class="l">empresários no formulário de interesse</div></div>
-    <div><div class="v">450</div><div class="l">entram e ficam no grupo Círculo Equity</div></div>
-    <div><div class="v">60</div><div class="l">compram no lote fundador (≈ 13% do grupo)</div></div>
-    <div><div class="v">+90</div><div class="l">vendidos na venda aberta e no último lote</div></div>
-    <div><div class="v" style="color:#fff">150</div><div class="l">lugares ocupados · exemplo para uma imersão</div></div>
-  </div>
-</section></div>
-
-<!-- 20 ABORDAGEM COMERCIAL -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">19 · Abordagem comercial</span><span class="pg">20</span></div>
-  <h2 class="t">Empresário não compra por anúncio. Compra por <i>convite</i>.</h2>
-  <p class="lede" style="margin-bottom:12px">O anúncio desperta interesse. Quem fecha é uma conversa humana, no tom certo, em seis frentes.</p>
-  <div class="g3 cm" style="flex:1;min-height:0">
-    <div class="card"><div class="ct">1 · Lista dos 100</div><p>Mapear os 100 empresários mais estratégicos de JP e CG. Recebem anúncio direcionado e convite nominal; os 30 principais, convite impresso.</p><div class="ex" style="font-size:15.5px">Convite em papel, com o nome do empresário e um bilhete da Paloma.</div></div>
-    <div class="card"><div class="ct">2 · Resposta em 24h</div><p>Todo empresário qualificado do formulário recebe uma mensagem pessoal do time em até 24 horas. Primeiro pergunta sobre o momento da empresa, depois apresenta o evento.</p><div class="ex" style="font-size:15.5px">“Oi, Carlos! Vi que você tem 3 unidades. Qual o maior desafio para abrir a 4ª?”</div></div>
-    <div class="card"><div class="ct">3 · Mesa de sócios</div><p>Ingresso corporativo de 3 a 5 lugares para sócios e liderança. Sobe o ticket médio e faz o evento virar decisão da empresa, não de uma pessoa.</p><div class="ex" style="font-size:15.5px">Mesa para 4: sócios e gerente saem do evento com o mesmo plano.</div></div>
-    <div class="card"><div class="ct">4 · Embaixadores</div><p>Quem já participou indica um empresário e ganha VIP ou lugar na mesa da Paloma. Indicação fecha mais rápido que anúncio.</p><div class="ex" style="font-size:15.5px">“Traga um empresário que precisa ouvir isso. Vocês sentam na mesa da Paloma.”</div></div>
-    <div class="card"><div class="ct">5 · Multiplicadores</div><p>Contadores, consultores, associações e o Parque Tecnológico levam seus clientes. Eles ganham prestígio; a Paloma, público pronto.</p><div class="ex" style="font-size:15.5px">Contador leva 5 clientes e é apresentado no palco como parceiro.</div></div>
-    <div class="card"><div class="ct">6 · Patrocinadores</div><p>Marcas que querem falar com empresários compram cotas e também ingressos para seus clientes. Viram um canal de venda de lugares.</p><div class="ex" style="font-size:15.5px">Banco compra cota e 10 ingressos para clientes empresariais.</div></div>
-  </div>
-  <div class="band" style="margin-top:12px"><span class="k">Roteiro em 4 passos</span><p>Perguntar sobre a empresa → mostrar o problema que o evento resolve → convidar <i>pelo nome</i> → oferecer o formato certo (individual, VIP ou mesa).</p></div>
-</section></div>
-
-<!-- 21 OAB -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">20 · As regras do jogo</span><span class="pg">21</span></div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:36px">
-    <div>
-      <h2 class="t">Advogada com autoridade, <i>sem risco na OAB</i>.</h2>
-      <p class="lede">O Provimento 205/2021 permite que a advogada produza conteúdo, impulsione publicações e participe de eventos. O que ele proíbe é usar a comunicação para captar clientes ou vender serviço jurídico como produto. Por isso, o plano já nasce separado:</p>
-      <div class="card" style="margin-top:18px;background:var(--deep);border-color:var(--deep)"><p style="color:#dfe5f1;font-size:14px;line-height:1.55">O <b style="color:var(--gold-lit)">evento</b> é vendido como evento. A <b style="color:var(--gold-lit)">Paloma</b> comunica como especialista que ensina. O <b style="color:var(--gold-lit)">escritório</b> nunca aparece com preço, promessa ou chamada de venda.</p></div>
-      <p class="src" style="margin-top:12px">Recomendação: validar o calendário de anúncios com a assessoria de ética da OAB-PB antes da fase 2.</p>
-      <div class="wr"><div class="no"><b>Evitar</b>“Contrate meu escritório e proteja sua empresa. Consulta por R$ 300.”</div><div class="yes"><b>Fazer</b>“3 cláusulas que todo contrato de sócio precisa ter. Salve para lembrar.”</div></div>
-    </div>
-    <div class="g2" style="align-content:start">
-      <div class="card" style="border-top:3px solid var(--ok)"><div class="ct" style="color:var(--ok)">Pode</div><ul class="chk">
-        <li>Conteúdo educativo e informativo</li><li>Impulsionar posts que ensinam</li><li>Falar em eventos e entrevistas</li><li>Vender ingressos do evento</li><li>Mostrar bastidores e eventos</li></ul></div>
-      <div class="card" style="border-top:3px solid var(--red)"><div class="ct" style="color:var(--red)">Não pode</div><ul class="chk x">
-        <li>Anunciar preço de serviço jurídico</li><li>Prometer resultado de causa</li><li>Abordar cliente oferecendo o escritório</li><li>Ostentação ligada à advocacia</li><li>Citar clientes sem autorização</li></ul></div>
-    </div>
-  </div>
-  <div class="band"><span class="k">A boa notícia</span><p>Conteúdo que ensina já é o marketing que a OAB permite. <i>Quanto mais a Paloma ensina</i>, menos ela precisa vender.</p></div>
-</section></div>
-
-<!-- 22 SCORECARD -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">21 · Como medimos</span><span class="pg">22</span></div>
-  <h2 class="t">Metas por trimestre: <i>autoridade se mede</i>, não se sente.</h2>
-  <p class="lede" style="margin-bottom:14px">Seguidor importa, mas não é o principal. As métricas que provam autoridade são as que mostram o mercado vindo até a Paloma.</p>
-  <table class="tb">
-    <tr><th style="width:30%">Indicador</th><th class="c">Hoje</th><th class="c">Mês 3</th><th class="c">Mês 6</th><th class="c">Mês 9</th><th class="c">Mês 12</th></tr>
-    <tr><td>Seguidores no Instagram</td><td class="c">7,4 mil</td><td class="c">10 mil</td><td class="c">15 mil</td><td class="c">20 mil</td><td class="c">25 mil</td></tr>
-    <tr class="hi"><td>Empresários na lista própria</td><td class="c">—</td><td class="c">600</td><td class="c">1.500</td><td class="c">3.000</td><td class="c">5.000</td></tr>
-    <tr><td>Membros do grupo Círculo Equity</td><td class="c">—</td><td class="c">200</td><td class="c">500</td><td class="c">900</td><td class="c">1.200</td></tr>
-    <tr><td>Convites para palestrar (acumulado)</td><td class="c">—</td><td class="c">1</td><td class="c">3</td><td class="c">6</td><td class="c">10</td></tr>
-    <tr><td>Aparições na imprensa (acumulado)</td><td class="c">—</td><td class="c">1</td><td class="c">4</td><td class="c">8</td><td class="c">12</td></tr>
-    <tr class="hi"><td>Vendas antes da abertura ao público</td><td class="c">—</td><td class="c">—</td><td class="c">20%</td><td class="c">50%</td><td class="c">60%</td></tr>
-    <tr><td>Público por grande edição</td><td class="c">150</td><td class="c">—</td><td class="c">—</td><td class="c">200</td><td class="c">300</td></tr>
-  </table>
-  <p class="src" style="margin-top:10px">Metas propostas a partir do ponto de partida atual. Serão recalibradas ao fim da fase 1, com os números reais do evento de 03/11.</p>
-  <div class="band"><span class="k">O sinal mais forte</span><p>Quando empresários começam a <i>pedir para entrar na lista</i> antes de qualquer anúncio, a autoridade está construída.</p></div>
-</section></div>
-
-<!-- 23 INVESTIMENTO -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">22 · Investimento em mídia</span><span class="pg">23</span></div>
-  <h2 class="t">Três caminhos de investimento <i>mensal em anúncios</i>.</h2>
-  <p class="lede" style="margin-bottom:22px">Valores pagos diretamente à Meta, sem incluir produção nem gestão. Nos meses de pré-venda das imersões, recomendamos reforço pontual.</p>
-  <div class="g3" style="flex:1;min-height:0;gap:18px">
-    <div class="inv"><div class="nm">Essencial</div><div class="vl">R$ 2.500<small>/mês</small></div><div class="ds">Só João Pessoa no início</div><ul>
-      <li>Presença e lista em João Pessoa</li><li>Campina Grande apenas perto da Confraria</li><li>Metas de seguidores e lista ~30% menores</li><li>Crescimento mais lento</li></ul><div style="margin-top:auto;border-top:1px solid var(--line);padding-top:12px;display:flex;align-items:baseline;gap:10px"><span style="font-family:var(--serif);font-size:36px;line-height:1">3.500</span><span style="font-size:13px;color:var(--ink-2)">empresários na lista em 12 meses</span></div></div>
-    <div class="inv rec"><span class="badge">Recomendado</span><div class="nm">Autoridade</div><div class="vl">R$ 5.000<small>/mês</small></div><div class="ds">JP + CG, as cinco campanhas ativas</div><ul>
-      <li>As metas deste estudo</li><li>Frequência semanal no público certo</li><li>Lista própria crescendo todo mês</li><li>Reforço de R$ 3 mil nos meses de pré-venda</li></ul><div style="margin-top:auto;border-top:1px solid var(--line);padding-top:12px;display:flex;align-items:baseline;gap:10px"><span style="font-family:var(--serif);font-size:36px;line-height:1">5.000</span><span style="font-size:13px;color:var(--ink-2)">empresários na lista em 12 meses</span></div></div>
-    <div class="inv"><div class="nm">Aceleração</div><div class="vl">R$ 9.000<small>/mês</small></div><div class="ds">Para antecipar o ano em 3 a 4 meses</div><ul>
-      <li>Tudo do plano Autoridade</li><li>Público ampliado para o interior da PB e Recife</li><li>Mais testes de conteúdo por mês</li><li>Grande edição maior já em julho</li></ul><div style="margin-top:auto;border-top:1px solid var(--line);padding-top:12px;display:flex;align-items:baseline;gap:10px"><span style="font-family:var(--serif);font-size:36px;line-height:1">7.500+</span><span style="font-size:13px;color:var(--ink-2)">empresários na lista em 12 meses</span></div></div>
-  </div>
-</section></div>
-
-<!-- 24 PRÓXIMOS 15 DIAS -->
-<div class="frame"><section class="slide">
-  <div class="s-head"><span class="tag">23 · Começa agora</span><span class="pg">24</span></div>
-  <div style="display:grid;grid-template-columns:1fr 330px;gap:32px;flex:1;min-height:0">
-    <div style="display:flex;flex-direction:column">
-      <h2 class="t">Os próximos 15 dias: transformar o <i>03/11 em fábrica</i> de autoridade.</h2>
-      <p class="lede" style="margin-bottom:12px">O evento já está vendendo. Agora a missão é garantir que ele deixe material e lista para os próximos 90 dias.</p>
-      <ul class="chk">
-        <li><b>Fala própria da Paloma no palco</b>, de 20 a 30 minutos, com o Código do Equity, e não só a abertura.</li>
-        <li><b>Equipe de filmagem com roteiro:</b> fala completa, 30 depoimentos curtos, bastidores e entrevistas com os palestrantes.</li>
-        <li><b>Foto da Paloma com cada participante</b>, para gerar marcações e alcance no dia seguinte.</li>
-        <li><b>Lista de interesse da próxima edição</b> anunciada no palco, com QR code nas mesas.</li>
-        <li><b>Grupo Círculo Equity</b> aberto no encerramento para quem participou.</li>
-        <li><b>Pesquisa rápida pós-evento:</b> nota, o que mais ajudou e qual o próximo tema desejado.</li>
-        <li><b>Posts em parceria</b> com Raphael Mattos e Cristiano Demartini para alcançar o público deles.</li>
-      </ul>
-      <div class="band"><span class="k">Meta do dia</span><p>Sair do 03/11 com <i>30 depoimentos</i>, 150 contatos e os primeiros nomes da próxima lista.</p></div>
-    </div>
-    <div class="photo" style="background-image:url(img/encontro-3.jpg);background-position:center 25%"></div>
-  </div>
-</section></div>
-
-<!-- 25 DECISÃO -->
-<div class="frame"><section class="slide dark" style="justify-content:center">
-  <div class="s-head" style="position:absolute;top:44px;left:64px;right:64px"><span class="tag">24 · Para começar</span><span class="pg">25</span></div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center">
-    <div>
-      <p class="quote" style="font-size:40px">Em doze meses, quando um empresário da Paraíba pensar em crescer com sócios, <i>o primeiro nome que vem é Paloma</i>.</p>
-    </div>
-    <div>
-      <div class="ct" style="color:var(--gold-lit);margin-bottom:14px">Três decisões para começarmos</div>
-      <div style="border-top:1px solid rgba(255,255,255,.14)">
-        <div style="padding:16px 0;border-bottom:1px solid rgba(255,255,255,.14);display:flex;gap:16px"><span style="font-family:var(--serif);font-size:32px;color:var(--gold-lit);line-height:1">1</span><p style="color:#dfe5f1;font-size:15px;line-height:1.5"><b style="color:#fff">Caminho de investimento:</b> Essencial, Autoridade ou Aceleração.</p></div>
-        <div style="padding:16px 0;border-bottom:1px solid rgba(255,255,255,.14);display:flex;gap:16px"><span style="font-family:var(--serif);font-size:32px;color:var(--gold-lit);line-height:1">2</span><p style="color:#dfe5f1;font-size:15px;line-height:1.5"><b style="color:#fff">Fala própria no dia 03/11</b> e equipe de filmagem com roteiro de autoridade.</p></div>
-        <div style="padding:16px 0;border-bottom:1px solid rgba(255,255,255,.14);display:flex;gap:16px"><span style="font-family:var(--serif);font-size:32px;color:var(--gold-lit);line-height:1">3</span><p style="color:#dfe5f1;font-size:15px;line-height:1.5"><b style="color:#fff">Quem atende o WhatsApp:</b> uma pessoa do time dedicada à abordagem comercial.</p></div>
+    <div class="topics">
+      <h3 class="rv">As 9 primeiras pautas, prontas para gravar</h3>
+      <div class="topic-grid">
+        <div class="topic rv"><small>Equity</small><p>O que é equity, explicado em 60 segundos</p></div>
+        <div class="topic rv d1"><small>Erros</small><p>A sociedade “de boca” e o dia em que ela acaba</p></div>
+        <div class="topic rv d2"><small>Equity</small><p>Como dar participação ao gerente sem perder o controle</p></div>
+        <div class="topic rv"><small>Erros</small><p>3 cláusulas que todo contrato de sócio precisa ter</p></div>
+        <div class="topic rv d1"><small>Palco</small><p>O que aprendi reunindo 150 empresários em um dia</p></div>
+        <div class="topic rv d2"><small>Equity</small><p>Crescer sem reinvestir todo o lucro: 4 caminhos</p></div>
+        <div class="topic rv"><small>Quem constrói</small><p>Entrevista: da 1ª à 6ª unidade sem dívida</p></div>
+        <div class="topic rv d1"><small>Erros</small><p>Por que empresa lucrativa pode valer pouco na hora de vender</p></div>
+        <div class="topic rv d2"><small>Paloma</small><p>Por que troquei o Direito tradicional pelo Direito de expansão</p></div>
       </div>
     </div>
   </div>
-  <div class="foot"><span>Paloma Rodrigues · Plano de Autoridade</span><span>Felipe Cavalcanti · Felipe Digital</span></div>
-</section></div>
+</section>
 
+<!-- 11 PERFIL -->
+<section class="pad cream">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">11 · Arrumar a casa</span><h2 class="h-lg split">Antes do anúncio, o perfil precisa <em>converter quem chega</em>.</h2></div>
+      <p class="lead rv d2">A bio nova fala a língua do empresário (“crescer com sócios”), mostra prova em números e oferece um único próximo passo.</p>
+    </div>
+    <div class="bio">
+      <div class="phone before rv"><div class="lab">Hoje</div>
+        <div class="ig-head"><div class="av"></div><div class="st"><div><b>185</b>posts</div><div><b>7.452</b>seguidores</div><div><b>2.041</b>seguindo</div></div></div>
+        <div class="ig-name">Paloma Rodrigues | Advogada Empresarial da Nova Economia</div>
+        <p class="ig-bio">Estruturo empresas para expansão com eficiência de capital e construção de ecossistema com Equity<br>⚜️ Garanta sua vaga na Imersão · Equity Code 03/11<br><span class="lk">equitycode.com.br/b</span></p>
+        <div class="hls"><div><span>E</span>Eventos</div><div><span>Q</span>Quem sou</div><div><span>D</span>Depoim.</div><div><span>I</span>Imersão</div><div><span>C</span>Clientes</div></div>
+      </div>
+      <div class="phone after rv d2"><div class="lab">Proposta</div>
+        <div class="ig-head"><div class="av"></div><div class="st"><div><b>185</b>posts</div><div><b>7.452</b>seguidores</div><div><b>~600</b>seguindo</div></div></div>
+        <div class="ig-name">Paloma Rodrigues · Advogada societária</div>
+        <p class="ig-bio">Ajudo empresários a crescer com sócios, sem perder o controle<br>Mentora no Parque Tecnológico da PB · +400 empresas<br>Anfitriã do Expansão Sólida<br><span class="lk">↓ Entre na lista da próxima edição</span></p>
+        <div class="hls"><div><span>▸</span>Comece aqui</div><div><span>E</span>Equity</div><div><span>◆</span>Eventos</div><div><span>“</span>Depoim.</div><div><span>▤</span>Imprensa</div></div>
+      </div>
+    </div>
+    <div class="changes">
+      <div class="rv"><h4>3 posts fixados</h4><p>Quem é a Paloma, o que é equity em 1 minuto e como foi o último evento.</p></div>
+      <div class="rv d1"><h4>Perfil próprio do evento</h4><p>Lote, contagem regressiva e logística saem do perfil dela, que fica livre para ensinar.</p></div>
+      <div class="rv d2"><h4>Link único e LinkedIn</h4><p>Um só destino, a lista de interesse. E o LinkedIn com o mesmo posicionamento.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 12 TRÁFEGO -->
+<section class="pad dark" id="trafego">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">12 · Tráfego pago</span><h2 class="h-lg split">Cinco campanhas, cada uma com <em>um trabalho</em>.</h2></div>
+      <p class="lead rv d2">Anúncio aqui não é só “compre o ingresso”. A maior parte do investimento serve para a Paloma ser vista pelas pessoas certas, várias vezes.</p>
+    </div>
+    <div class="camps">
+      <div class="camp rv"><div class="n">01</div><h3>Presença</h3><dl><dt>O quê</dt><dd>Os melhores vídeos educativos da Paloma.</dd><dt>Para quem</dt><dd>Donos de empresa em JP e CG.</dd><dt>Para quê</dt><dd>Ser vista toda semana pelas mesmas pessoas.</dd></dl><div class="ex">“Seu melhor gerente pode virar sócio sem levar metade.”</div><div class="ms">Mede: alcance no público certo</div></div>
+      <div class="camp rv d1"><div class="n">02</div><h3>Lista Equity</h3><dl><dt>O quê</dt><dd>Diagnóstico de Expansão e e-book.</dd><dt>Para quem</dt><dd>Quem assistiu aos vídeos.</dd><dt>Para quê</dt><dd>Captar nome, WhatsApp, empresa e faturamento.</dd></dl><div class="ex">“Em 3 minutos, descubra o que trava a sua expansão.”</div><div class="ms">Mede: custo por empresário qualificado</div></div>
+      <div class="camp rv d2"><div class="n">03</div><h3>Convite</h3><dl><dt>O quê</dt><dd>Anúncio do evento, lote e programação.</dd><dt>Para quem</dt><dd>Lista, seguidores e visitantes da página.</dd><dt>Para quê</dt><dd>Vender ingressos.</dd></dl><div class="ex">“150 empresários. Um dia. 03/11, João Pessoa.”</div><div class="ms">Mede: custo por ingresso</div></div>
+      <div class="camp rv d3"><div class="n">04</div><h3>Prova</h3><dl><dt>O quê</dt><dd>Depoimentos e cenas dos eventos.</dd><dt>Para quem</dt><dd>Quem viu o convite e não comprou.</dd><dt>Para quê</dt><dd>Responder a “vale a pena?”.</dd></dl><div class="ex">“O que mudou na empresa dele depois da imersão.”</div><div class="ms">Mede: compras recuperadas</div></div>
+      <div class="camp rv d4"><div class="n">05</div><h3>Conversa</h3><dl><dt>O quê</dt><dd>Anúncio que abre o WhatsApp.</dd><dt>Para quem</dt><dd>Empresas maiores, VIP e mesas corporativas.</dd><dt>Para quê</dt><dd>Venda consultiva.</dd></dl><div class="ex">“Quer levar seus sócios? Fale com a equipe.”</div><div class="ms">Mede: conversas que viram venda</div></div>
+    </div>
+
+    <div class="alloc">
+      <div>
+        <span class="eyebrow rv">Onde vai o dinheiro</span>
+        <h3 class="h-md rv" style="margin-top:20px;color:#fff;font-size:clamp(30px,3vw,42px);font-weight:400">O peso de cada campanha <em>muda com a fase</em>.</h3>
+        <p class="lead rv d1" style="margin-top:18px">No começo, o dinheiro vai para ser vista e captar. Perto dos eventos, desloca para converter. Assim a venda nunca começa do zero.</p>
+        <div class="tabs rv d2" role="tablist" id="tabs">
+          <button role="tab" class="act" data-i="0">Provar</button><button role="tab" data-i="1">Expandir</button><button role="tab" data-i="2">Antecipar</button><button role="tab" data-i="3">Consolidar</button>
+        </div>
+      </div>
+      <div class="rv d2">
+        <div class="bars" id="bars">
+          <div class="brow"><span>Presença</span><div class="tr"><i></i></div><b>0%</b></div>
+          <div class="brow"><span>Lista Equity</span><div class="tr"><i></i></div><b>0%</b></div>
+          <div class="brow"><span>Convite</span><div class="tr"><i></i></div><b>0%</b></div>
+          <div class="brow"><span>Prova</span><div class="tr"><i></i></div><b>0%</b></div>
+          <div class="brow"><span>Conversa</span><div class="tr"><i></i></div><b>0%</b></div>
+        </div>
+        <p class="city-note" id="cityNote">Cidades: <b>João Pessoa</b></p>
+      </div>
+    </div>
+    <div class="rules">
+      <div class="rv"><span class="n">Regra 1</span><p>Só vira anúncio o conteúdo que já funcionou sem dinheiro no perfil.</p></div>
+      <div class="rv d1"><span class="n">Regra 2</span><p>Toda campanha de venda abre 30 a 45 dias antes do evento, nunca na última semana.</p></div>
+      <div class="rv d2"><span class="n">Regra 3</span><p>Revisão mensal: o que trouxe empresário qualificado ganha verba; o resto sai.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 13 ESTEIRA -->
+<section class="pad" id="vendas">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">13 · Vender antes de abrir</span><h2 class="h-lg split">Quando abre ao público, <em>metade já foi</em>.</h2></div>
+      <p class="lead rv d2">Evento para empresário não se vende em uma semana de anúncio. Se vende em 90 dias de aquecimento, com cada etapa marcada no calendário.</p>
+    </div>
+    <div class="flow" id="flow">
+      <div class="flow-line"><i></i></div>
+      <div class="step rv"><div class="w">90 dias antes</div><h3>Formulário de interesse</h3><p>Tema e data anunciados. Quem quer saber primeiro deixa nome, WhatsApp, empresa e faturamento.</p></div>
+      <div class="step rv d1"><div class="w">75 dias antes</div><h3>Grupo Círculo Equity</h3><p>Quem preencheu entra no grupo: conteúdo exclusivo e palestrantes revelados ali primeiro.</p></div>
+      <div class="step key rv d2"><div class="w">60 dias antes</div><h3>Lote fundador</h3><p>48 horas de venda só para o grupo, no menor preço. Não é desconto: é o primeiro lote.</p></div>
+      <div class="step rv d3"><div class="w">45 dias antes</div><h3>Venda aberta</h3><p>Anúncios para o público geral com prova social: “X empresários já confirmados”.</p></div>
+      <div class="step rv d4"><div class="w">15 dias antes</div><h3>Último lote</h3><p>Preço mais alto, poucas vagas e contato pessoal com quem demonstrou interesse.</p></div>
+    </div>
+    <div class="funnel rv">
+      <div><div class="v"><span class="count" data-to="1200">0</span></div><p>empresários no formulário de interesse</p></div>
+      <div><div class="v"><span class="count" data-to="450">0</span></div><p>entram e ficam no grupo Círculo Equity</p></div>
+      <div><div class="v"><span class="count" data-to="60">0</span></div><p>compram no lote fundador (≈ 13% do grupo)</p></div>
+      <div><div class="v"><span class="count" data-to="90" data-pre="+">0</span></div><p>na venda aberta e no último lote</p></div>
+      <div><div class="v"><span class="count" data-to="150">0</span></div><p>lugares ocupados</p></div>
+    </div>
+    <p class="funnel-cap rv">Exemplo ilustrativo para uma imersão de 150 lugares. As taxas serão calibradas com os dados reais do evento de 03/11.</p>
+    <div class="principles">
+      <div class="rv"><h4>O preço sobe, não cai</h4><p>Os lotes sobem com o tempo. Quem espera paga mais, e o público aprende a comprar cedo.</p></div>
+      <div class="rv d1"><h4>O formulário qualifica</h4><p>Faturamento e cidade separam quem recebe ligação do time de quem recebe a mensagem automática.</p></div>
+      <div class="rv d2"><h4>O grupo tem regra</h4><p>Grupo de avisos, não de conversa: 3 a 4 mensagens por semana, todas com valor.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 14 ABORDAGEM -->
+<section class="pad cream">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">14 · Abordagem comercial</span><h2 class="h-lg split">Empresário não compra por anúncio. Compra por <em>convite</em>.</h2></div>
+      <p class="lead rv d2">O anúncio desperta interesse. Quem fecha é uma conversa humana, no tom certo, em seis frentes pensadas para esse público.</p>
+    </div>
+    <div class="fronts">
+      <div class="front rv"><span class="n">01</span><h3>Lista dos 100</h3><p>Mapear os 100 empresários mais estratégicos de JP e CG. Recebem anúncio direcionado e convite nominal; os 30 principais, convite impresso.</p><q>Convite em papel, com o nome dele e um bilhete da Paloma.</q></div>
+      <div class="front rv d1"><span class="n">02</span><h3>Resposta em 24h</h3><p>Todo empresário qualificado recebe uma mensagem pessoal do time em até 24 horas. Primeiro pergunta sobre a empresa, depois apresenta o evento.</p><q>“Vi que você tem 3 unidades. Qual o maior desafio para abrir a 4ª?”</q></div>
+      <div class="front rv d2"><span class="n">03</span><h3>Mesa de sócios</h3><p>Ingresso corporativo de 3 a 5 lugares para sócios e liderança. Sobe o ticket médio e transforma o evento em decisão da empresa.</p><q>Sócios e gerente saem do evento com o mesmo plano.</q></div>
+      <div class="front rv"><span class="n">04</span><h3>Embaixadores</h3><p>Quem já participou indica um empresário e ganha VIP ou lugar na mesa da Paloma. Indicação fecha mais rápido que anúncio.</p><q>“Traga quem precisa ouvir isso. Vocês sentam com a Paloma.”</q></div>
+      <div class="front rv d1"><span class="n">05</span><h3>Multiplicadores</h3><p>Contadores, consultores, associações e o Parque Tecnológico levam seus clientes. Eles ganham prestígio; a Paloma, público pronto.</p><q>Contador leva 5 clientes e é apresentado no palco como parceiro.</q></div>
+      <div class="front rv d2"><span class="n">06</span><h3>Patrocinadores</h3><p>Marcas que querem falar com empresários compram cotas e também ingressos para seus clientes, virando um canal de venda.</p><q>Banco compra cota e 10 ingressos para clientes empresariais.</q></div>
+    </div>
+    <div class="script">
+      <div class="rv"><p>Perguntar sobre o momento da empresa</p></div>
+      <div class="rv d1"><p>Mostrar o problema que o evento resolve</p></div>
+      <div class="rv d2"><p>Convidar pelo nome, de forma pessoal</p></div>
+      <div class="rv d3"><p>Oferecer o formato certo: individual, VIP ou mesa</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 15 OAB -->
+<section class="pad">
+  <div class="wrap oab">
+    <div>
+      <span class="eyebrow rv">15 · As regras do jogo</span>
+      <h2 class="h-lg split" style="margin-top:26px">Autoridade, <em>sem risco</em> na OAB.</h2>
+      <p class="lead rv d2" style="margin-top:26px">O Provimento 205/2021 permite que a advogada produza conteúdo, impulsione publicações e participe de eventos. O que ele proíbe é usar a comunicação para captar clientes ou vender serviço jurídico como produto.</p>
+      <p class="lead rv d3" style="margin-top:18px">Por isso o plano já nasce separado: o <b style="color:var(--ink)">evento</b> é vendido como evento, a <b style="color:var(--ink)">Paloma</b> comunica como especialista que ensina e o <b style="color:var(--ink)">escritório</b> nunca aparece com preço ou promessa.</p>
+      <p class="rv d3" style="margin-top:22px;font-size:13.5px;color:var(--ink-3)">Recomendação: validar o calendário de anúncios com a comissão de ética da OAB-PB antes da fase 2.</p>
+    </div>
+    <div>
+      <div class="do-dont">
+        <div class="dd y rv"><h4>Pode</h4><ul><li>Conteúdo educativo</li><li>Impulsionar posts que ensinam</li><li>Falar em eventos e entrevistas</li><li>Vender ingressos do evento</li><li>Mostrar bastidores</li></ul></div>
+        <div class="dd n rv d1"><h4>Não pode</h4><ul><li>Anunciar preço de serviço jurídico</li><li>Prometer resultado</li><li>Oferecer o escritório a alguém</li><li>Ostentação ligada à advocacia</li><li>Citar clientes sem autorização</li></ul></div>
+      </div>
+      <div class="ex-pair">
+        <div class="bad rv"><b>Evitar</b>“Contrate meu escritório e proteja sua empresa. Consulta por R$ 300.”</div>
+        <div class="good rv d1"><b>Fazer</b>“3 cláusulas que todo contrato de sócio precisa ter. Salve para lembrar.”</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 16 METAS -->
+<section class="pad dark">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">16 · Como medimos</span><h2 class="h-lg split">Autoridade <em>se mede</em>, não se sente.</h2></div>
+      <p class="lead rv d2">Seguidor importa, mas não é o principal. As métricas que provam autoridade mostram o mercado vindo até a Paloma. O sinal mais forte: empresários pedindo para entrar na lista antes de qualquer anúncio.</p>
+    </div>
+    <div class="table-wrap rv">
+      <table>
+        <thead><tr><th>Indicador</th><th>Hoje</th><th>Mês 3</th><th>Mês 6</th><th>Mês 9</th><th>Mês 12</th></tr></thead>
+        <tbody>
+          <tr><td>Seguidores no Instagram</td><td class="now">7,4 mil</td><td>10 mil</td><td>15 mil</td><td>20 mil</td><td>25 mil</td></tr>
+          <tr class="key"><td>Empresários na lista própria</td><td class="now">—</td><td>600</td><td>1.500</td><td>3.000</td><td>5.000</td></tr>
+          <tr><td>Membros do Círculo Equity</td><td class="now">—</td><td>200</td><td>500</td><td>900</td><td>1.200</td></tr>
+          <tr><td>Convites para palestrar (acumulado)</td><td class="now">—</td><td>1</td><td>3</td><td>6</td><td>10</td></tr>
+          <tr><td>Aparições na imprensa (acumulado)</td><td class="now">—</td><td>1</td><td>4</td><td>8</td><td>12</td></tr>
+          <tr class="key"><td>Vendido antes da abertura ao público</td><td class="now">—</td><td>—</td><td>20%</td><td>50%</td><td>60%</td></tr>
+          <tr><td>Público por grande edição</td><td class="now">150</td><td>—</td><td>—</td><td>200</td><td>300</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="rv" style="margin-top:24px;font-size:13.5px;color:rgba(255,255,255,.45)">Metas propostas a partir do ponto de partida atual, recalibradas ao fim da fase 1 com os números reais do evento de 03/11.</p>
+  </div>
+</section>
+
+<!-- 17 INVESTIMENTO -->
+<section class="pad cream" id="investimento">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="eyebrow rv">17 · Investimento em mídia</span><h2 class="h-lg split">Três caminhos de investimento <em>mensal</em>.</h2></div>
+      <p class="lead rv d2">Valores pagos diretamente à Meta, sem incluir produção nem gestão. Nos meses de pré-venda das imersões, recomendamos um reforço pontual.</p>
+    </div>
+    <div class="plans">
+      <div class="plan rv"><div class="nm">Essencial</div><div class="pr">R$ 2.500 <small>/mês</small></div><div class="ds">Começa só por João Pessoa</div><ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Presença e lista em João Pessoa</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Campina Grande só perto da Confraria</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Metas cerca de 30% menores</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Crescimento mais lento</li></ul>
+        <div class="res"><b>3.500</b><span>empresários na lista<br>em 12 meses</span></div></div>
+      <div class="plan rec rv d1"><span class="badge">Recomendado</span><div class="nm">Autoridade</div><div class="pr">R$ 5.000 <small>/mês</small></div><div class="ds">JP + CG, com as cinco campanhas ativas</div><ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Todas as metas deste estudo</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Frequência semanal no público certo</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Lista própria crescendo todo mês</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Reforço de R$ 3 mil nas pré-vendas</li></ul>
+        <div class="res"><b>5.000</b><span>empresários na lista<br>em 12 meses</span></div></div>
+      <div class="plan rv d2"><div class="nm">Aceleração</div><div class="pr">R$ 9.000 <small>/mês</small></div><div class="ds">Antecipa o ano em 3 a 4 meses</div><ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Tudo do plano Autoridade</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Interior da PB e Recife</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Mais testes de conteúdo por mês</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Grande edição maior já em julho</li></ul>
+        <div class="res"><b>7.500+</b><span>empresários na lista<br>em 12 meses</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 18 PRÓXIMOS 15 DIAS -->
+<section class="pad">
+  <div class="wrap next">
+    <div>
+      <span class="eyebrow rv">18 · Começa agora</span>
+      <h2 class="h-lg split" style="margin-top:26px">Os próximos 15 dias: o <em>03/11</em> como fonte de conteúdo.</h2>
+      <p class="lead rv d2" style="margin-top:24px">O evento já está vendendo. A missão agora é garantir que ele deixe material e lista para os próximos 90 dias.</p>
+      <ul class="checks">
+        <li class="rv"><span><b>Fala própria da Paloma no palco</b>, de 20 a 30 minutos, e não só a abertura.</span></li>
+        <li class="rv"><span><b>Filmagem com roteiro:</b> fala completa, 30 depoimentos curtos e bastidores.</span></li>
+        <li class="rv"><span><b>Foto com cada participante</b>, para gerar marcações no dia seguinte.</span></li>
+        <li class="rv"><span><b>Lista da próxima edição</b> anunciada no palco, com QR code nas mesas.</span></li>
+        <li class="rv"><span><b>Grupo Círculo Equity</b> aberto no encerramento.</span></li>
+        <li class="rv"><span><b>Posts em parceria</b> com Raphael Mattos e Cristiano Demartini.</span></li>
+      </ul>
+    </div>
+    <div class="ph img-rv"><div class="bg" role="img" aria-label="Paloma no último encontro"></div><div class="tag"><b>Meta do dia</b><p>Sair do 03/11 com 30 depoimentos, 150 contatos e os primeiros nomes da próxima lista.</p></div></div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="dark final">
+  <div class="wrap">
+    <span class="eyebrow rv">Para começar</span>
+    <h2 class="h-lg split" style="margin-top:34px">Em doze meses, quando um empresário da Paraíba pensar em crescer com sócios, <em>o primeiro nome será Paloma</em>.</h2>
+    <div class="decisions">
+      <div class="rv"><div class="n">1</div><h4>Caminho de investimento</h4><p>Essencial, Autoridade ou Aceleração.</p></div>
+      <div class="rv d1"><div class="n">2</div><h4>Fala própria no 03/11</h4><p>E uma equipe de filmagem com roteiro de autoridade.</p></div>
+      <div class="rv d2"><div class="n">3</div><h4>Quem atende o WhatsApp</h4><p>Uma pessoa do time dedicada à abordagem comercial.</p></div>
+    </div>
+    <div class="photostrip rv" aria-hidden="true">
+      <div style="background-image:url(img/encontro-1.jpg)"></div><div style="background-image:url(img/encontro-2.jpg)"></div><div style="background-image:url(img/encontro-6.jpg)"></div><div style="background-image:url(img/encontro-4.jpg)"></div><div style="background-image:url(img/encontro-5.jpg)"></div>
+    </div>
+    <div class="cta rv"><a class="btn gold" href="estudo-paloma-rodrigues.pdf" download>Baixar o estudo em PDF <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></a><a class="btn ghost" href="#topo" style="color:#fff">Voltar ao início</a></div>
+  </div>
+</section>
+<footer><div class="wrap"><span>Paloma Rodrigues · Plano de Autoridade · 2026–2027</span><span>Felipe Cavalcanti · Felipe Digital</span></div></footer>
+
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
 <script>
 (function(){
-  // rodapé padrão nos slides claros que não têm
-  document.querySelectorAll('.slide').forEach(function(s){
-    if(!s.querySelector('.foot')&&!s.classList.contains('cover')){var f=document.createElement('div');f.className='foot';f.innerHTML='<span>Paloma Rodrigues · Plano de Autoridade</span><span>Felipe Digital</span>';s.appendChild(f);}
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // quebra títulos em palavras para o efeito de máscara
+  document.querySelectorAll('.split').forEach(function(el){
+    var html = el.innerHTML, out = '', i = 0;
+    var parts = html.split(/(<em>.*?<\/em>)/);
+    parts.forEach(function(p){
+      var isEm = /^<em>/.test(p);
+      var txt = isEm ? p.replace(/<\/?em>/g,'') : p;
+      txt.split(/(\s+)/).forEach(function(w){
+        if(!w) return;
+        if(/^\s+$/.test(w)){ out += ' '; return; }
+        var inner = isEm ? '<em>'+w+'</em>' : w;
+        out += '<span class="w"><span style="transition-delay:'+(i*0.045).toFixed(3)+'s">'+inner+'</span></span>';
+        i++;
+      });
+    });
+    el.innerHTML = out;
   });
-  function fit(){
-    var s=Math.min(1,(window.innerWidth-24)/1280);
-    document.querySelectorAll('.frame').forEach(function(f){
-      f.style.width=(1280*s)+'px'; f.style.height=(720*s)+'px';
-      f.firstElementChild.style.transform='scale('+s+')';
+
+  // smooth scroll
+  var lenis = null;
+  if(!reduce && window.Lenis){
+    lenis = new Lenis({ duration:1.15, easing:function(t){ return Math.min(1, 1.001 - Math.pow(2, -10*t)); } });
+    function raf(t){ lenis.raf(t); requestAnimationFrame(raf); }
+    requestAnimationFrame(raf);
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){
+      a.addEventListener('click', function(e){
+        var id = a.getAttribute('href'); if(id.length < 2) return;
+        var t = document.querySelector(id); if(!t) return;
+        e.preventDefault(); lenis.scrollTo(t, { offset: id==='#topo'?0:-90 });
+      });
     });
   }
-  if(window.matchMedia('screen').matches){ fit(); window.addEventListener('resize',fit); }
+
+  // reveal
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(e.isIntersecting){
+        e.target.classList.add('in');
+        e.target.querySelectorAll('.count').forEach(count);
+        if(e.target.classList.contains('count')) count(e.target);
+        io.unobserve(e.target);
+      }
+    });
+  }, { rootMargin:'0px 0px -8% 0px', threshold:0.08 });
+  document.querySelectorAll('.rv,.split,.img-rv,.flow').forEach(function(el){ io.observe(el); });
+
+  // contadores
+  function count(el){
+    if(el.dataset.done) return; el.dataset.done = 1;
+    var to = parseFloat(el.dataset.to), dec = +(el.dataset.dec||0), pre = el.dataset.pre||'';
+    var fmt = function(v){ return pre + v.toLocaleString('pt-BR',{minimumFractionDigits:dec,maximumFractionDigits:dec}); };
+    if(reduce){ el.textContent = fmt(to); return; }
+    var t0 = null, d = 1800;
+    function step(t){ if(!t0) t0 = t; var p = Math.min(1,(t-t0)/d), e = 1-Math.pow(1-p,4); el.textContent = fmt(dec? +(to*e).toFixed(dec) : Math.round(to*e)); if(p<1) requestAnimationFrame(step); }
+    requestAnimationFrame(step);
+  }
+
+  // progresso, nav e parallax
+  var prog = document.getElementById('progress'), nav = document.getElementById('nav'), heroPh = document.getElementById('heroPh');
+  var darks = [].slice.call(document.querySelectorAll('.dark, .hero'));
+  var links = [].slice.call(document.querySelectorAll('.nav ul a'));
+  var secs = links.map(function(a){ return document.querySelector(a.getAttribute('href')); });
+  var lastY = 0;
+  function onScroll(){
+    var y = window.scrollY, h = document.documentElement.scrollHeight - innerHeight;
+    prog.style.transform = 'scaleX('+(h>0? y/h : 0)+')';
+    var mid = 40, onDark = darks.some(function(s){ var r = s.getBoundingClientRect(); return r.top <= mid && r.bottom >= mid; });
+    nav.classList.toggle('on-dark', onDark);
+    nav.classList.toggle('hide', y > 500 && y > lastY + 4);
+    if(y < lastY - 4 || y < 500) nav.classList.remove('hide');
+    lastY = y;
+    if(heroPh && !reduce && y < innerHeight*1.2) heroPh.style.transform = 'translate3d(0,'+(y*0.18)+'px,0) scale(1.04)';
+    var cur = -1; secs.forEach(function(s,i){ if(s && s.getBoundingClientRect().top < innerHeight*0.4) cur = i; });
+    links.forEach(function(a,i){ a.classList.toggle('act', i===cur); });
+  }
+  if(lenis) lenis.on('scroll', onScroll); else window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  // roadmap: fase ativa
+  var dots = [].slice.call(document.querySelectorAll('#roadDots a'));
+  var phases = ['f1','f2','f3','f4'].map(function(id){ return document.getElementById(id); });
+  var pio = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ var i = phases.indexOf(e.target); dots.forEach(function(d,j){ d.classList.toggle('act', i===j); }); } });
+  }, { rootMargin:'-45% 0px -50% 0px' });
+  phases.forEach(function(p){ pio.observe(p); });
+  dots[0].classList.add('act');
+
+  // verba por fase
+  var data = [[50,25,15,5,5],[45,35,10,5,5],[25,30,25,10,10],[20,15,40,15,10]];
+  var cities = ['João Pessoa','João Pessoa + Campina Grande','João Pessoa + Campina Grande','João Pessoa + Campina Grande'];
+  var rows = [].slice.call(document.querySelectorAll('#bars .brow')), tabs = [].slice.call(document.querySelectorAll('#tabs button'));
+  function setPhase(i){
+    tabs.forEach(function(t,j){ t.classList.toggle('act', i===j); t.setAttribute('aria-selected', i===j); });
+    rows.forEach(function(r,j){ r.querySelector('i').style.width = (data[i][j]*2)+'%'; r.querySelector('b').textContent = data[i][j]+'%'; });
+    document.getElementById('cityNote').innerHTML = 'Cidades: <b>'+cities[i]+'</b>';
+  }
+  tabs.forEach(function(t,i){ t.addEventListener('click', function(){ setPhase(i); }); });
+  var bio = new IntersectionObserver(function(es){ if(es[0].isIntersecting){ setPhase(0); bio.disconnect(); } }, {threshold:.3});
+  bio.observe(document.getElementById('bars'));
 })();
 </script>
 </body>
